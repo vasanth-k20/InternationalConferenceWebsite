@@ -194,6 +194,10 @@ body {
 
 .about {
     padding: 5em 0 3em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .left-about {
@@ -262,13 +266,56 @@ a.browse {
     padding: 0.7em 1em;
 }
 
-
-
     a.browse:hover {
         background: rgba(252, 172, 69, 0.66);
         border: 1px solid rgba(252, 172, 69, 0.66);
     }
 
+@media (max-width: 1024px) {
+    .about {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-left {
+        width: 100%;
+        text-align: center;
+    }
+
+    .left-about {
+        width: 100%;
+        padding: 1em;
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .left-about small {
+        font-size: 1.8em;
+    }
+
+    .left-about h3 {
+        font-size: 2.5em;
+    }
+
+    .left-about p {
+        font-size: 1.2em;
+    }
+}
+
+@media (max-width: 480px) {
+    .left-about small {
+        font-size: 1.5em;
+    }
+
+    .left-about h3 {
+        font-size: 2em;
+    }
+
+    .left-about p {
+        font-size: 1em;
+    }
+}
 
 
 

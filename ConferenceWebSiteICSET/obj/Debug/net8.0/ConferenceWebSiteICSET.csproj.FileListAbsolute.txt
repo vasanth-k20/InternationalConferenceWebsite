@@ -32,3 +32,4 @@ C:\Users\office\source\repos\ConferenceWebSiteICSET\ConferenceWebSiteICSET\obj\D
 C:\Users\office\source\repos\ConferenceWebSiteICSET\ConferenceWebSiteICSET\obj\Debug\net8.0\ConferenceWebSiteICSET.pdb
 C:\Users\office\source\repos\ConferenceWebSiteICSET\ConferenceWebSiteICSET\obj\Debug\net8.0\ConferenceWebSiteICSET.genruntimeconfig.cache
 C:\Users\office\source\repos\ConferenceWebSiteICSET\ConferenceWebSiteICSET\obj\Debug\net8.0\ref\ConferenceWebSiteICSET.dll
+C:\Users\office\source\repos\ConferenceWebSiteICSET\ConferenceWebSiteICSET\obj\Debug\net8.0\ConferenceWebSiteICSET.sourcelink.json
