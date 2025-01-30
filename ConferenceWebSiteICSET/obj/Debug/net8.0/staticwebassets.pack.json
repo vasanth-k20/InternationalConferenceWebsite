@@ -9,12 +9,28 @@
       "PackagePath": "staticwebassets\\css\\LOGO2.PNG"
     },
     {
+      "Id": "C:\\Users\\office\\source\\repos\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\wwwroot\\css\\about.jpg",
+      "PackagePath": "staticwebassets\\css\\about.jpg"
+    },
+    {
+      "Id": "C:\\Users\\office\\source\\repos\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\wwwroot\\css\\about2.jpg",
+      "PackagePath": "staticwebassets\\css\\about2.jpg"
+    },
+    {
       "Id": "C:\\Users\\office\\source\\repos\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\wwwroot\\css\\banner.jpg",
       "PackagePath": "staticwebassets\\css\\banner.jpg"
     },
     {
       "Id": "C:\\Users\\office\\source\\repos\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\wwwroot\\css\\browser.png",
       "PackagePath": "staticwebassets\\css\\browser.png"
+    },
+    {
+      "Id": "C:\\Users\\office\\source\\repos\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\wwwroot\\css\\contact.jpg",
+      "PackagePath": "staticwebassets\\css\\contact.jpg"
+    },
+    {
+      "Id": "C:\\Users\\office\\source\\repos\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\wwwroot\\css\\contact1.jpg",
+      "PackagePath": "staticwebassets\\css\\contact1.jpg"
     },
     {
       "Id": "C:\\Users\\office\\source\\repos\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\wwwroot\\css\\down.png",

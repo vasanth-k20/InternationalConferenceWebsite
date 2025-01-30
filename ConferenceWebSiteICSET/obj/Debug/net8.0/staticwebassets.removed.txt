@@ -1,5 +1,0 @@
-C:\Users\office\source\repos\ConferenceWebSiteICSET\ConferenceWebSiteICSET\wwwroot\css\headerbanner.jpg
-C:\Users\office\source\repos\ConferenceWebSiteICSET\ConferenceWebSiteICSET\wwwroot\css\tv.jpg
-C:\Users\office\source\repos\ConferenceWebSiteICSET\ConferenceWebSiteICSET\wwwroot\css\up2.png
-C:\Users\office\source\repos\ConferenceWebSiteICSET\ConferenceWebSiteICSET\wwwroot\css\up3.png
-C:\Users\office\source\repos\ConferenceWebSiteICSET\ConferenceWebSiteICSET\wwwroot\css\up4.png

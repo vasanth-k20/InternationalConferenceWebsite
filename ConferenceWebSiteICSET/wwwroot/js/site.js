@@ -44,3 +44,16 @@ document.getElementById('country-code').addEventListener('change', function () {
     const selectedOption = this.options[this.selectedIndex].text;
     document.getElementById('contact-number').placeholder = selectedOption;
 });
+
+
+//for testimonal curosel
+$(document).ready(function () {
+    $("#owl-demo2").owlCarousel({
+        items: 1,
+        loop: true,
+        autoplay: true,
+        autoplayTimeout: 5000,
+        dots: true,
+        animateOut: 'fadeOut'
+    });
+});

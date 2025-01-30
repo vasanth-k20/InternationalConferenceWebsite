@@ -1,5 +1,9 @@
+wwwroot\css\about.jpg
+wwwroot\css\about2.jpg
 wwwroot\css\banner.jpg
 wwwroot\css\browser.png
+wwwroot\css\contact.jpg
+wwwroot\css\contact1.jpg
 wwwroot\css\down.png
 wwwroot\css\fb.png
 wwwroot\css\gmail.png
