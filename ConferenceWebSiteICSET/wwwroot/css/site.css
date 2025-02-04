@@ -36,19 +36,21 @@ body {
     align-items: center;
     justify-content: center;
     position: relative;
+    padding-top: 80px; /* Add padding to account for the fixed navbar height */
 }
 
 .header-top {
-    position: fixed;
+    position: fixed !important;
     top: 0;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: rgba(0, 0, 0, 0.9);
-    z-index: 9999;
+    z-index: 999999 !important;
     padding: 1rem 2rem;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    height: 80px; /* Define height of the navbar */
 }
 
 .container {
@@ -58,9 +60,9 @@ body {
 }
 
 .nav-container {
-    display:flex;
-    justify-content:space-between;
-    width:100%;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .logo img {
@@ -118,7 +120,7 @@ body {
         flex-direction: column;
         background: rgba(0, 0, 0, 0.9);
         position: absolute;
-        top: 60px;
+        top: 80px; /* Position it just below the navbar */
         right: 0;
         width: 100%;
         text-align: center;
@@ -128,8 +130,8 @@ body {
 
         .top-nav ul.active {
             display: grid;
-            gap:0em;
-            justify-content:center;
+            gap: 0em;
+            justify-content: center;
         }
 
         .top-nav ul li {
@@ -181,6 +183,7 @@ body {
         transform: translateY(-10px);
     }
 }
+
 
 
 
@@ -394,7 +397,7 @@ a.browse {
         width: 100px;
         height: 100px;
         margin: 0 auto 20px;
-        border: 4px solid #f4a03b;
+/*        border: 4px solid ;*/
         border-radius: 50%;
         display: flex;
         justify-content: center;
@@ -403,27 +406,27 @@ a.browse {
 
         .ser-in a span {
             display: block;
-            width: 50px;
-            height: 50px;
+            width: 100px;
+            height: 100px;
             background-size: contain;
             background-repeat: no-repeat;
         }
 
         /* Icons */
         .ser-in a span {
-            background-image: url("images/computer-icon.png");
+            background-image: url("ser1.png");
         }
 
         .ser-in a .mobile {
-            background-image: url("images/mobile-icon.png");
+            background-image: url("ser2.png");
         }
 
         .ser-in a .camera {
-            background-image: url("images/camera-icon.png");
+            background-image: url("ser3.png");
         }
 
         .ser-in a .mike {
-            background-image: url("images/mike-icon.png");
+            background-image: url("ser4.png");
         }
 
     .ser-in h6 {
@@ -463,34 +466,110 @@ a.browse {
 }
 
 
+.clients {
+    background: url('/css/banner.jpg') no-repeat center center;
+    background-size: cover;
+    padding: 100px 30px; /* Increased padding for a larger section */
+    color: #fff;
+    text-align: center;
+}
+
+    .clients h3 {
+        font-size: 2.5em;
+        font-weight: 400;
+        text-transform: uppercase;
+        margin-bottom: 40px;
+        color: #ffffff;
+    }
+
+        .clients h3 span {
+            color: #EF4A50;
+            text-transform: uppercase;
+            font-weight: 700;
+        }
+
+#owl-demo1 {
+    max-width: 1400px; /* Increased max width for the carousel */
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+.item-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px; /* Increased gap between client logos */
+}
+
+    .item-left a img {
+        max-height: 150px; /* Increased logo size */
+        transition: transform 0.3s;
+    }
+
+        .item-left a img:hover {
+            transform: scale(1.2); /* Slightly larger scaling on hover */
+        }
+
+/* Owl pagination */
+.owl-theme .owl-controls .owl-pagination {
+    margin-top: 30px; /* Increased spacing above pagination */
+    text-align: center;
+}
+
+.owl-theme .owl-controls .owl-page span {
+    display: inline-block;
+    width: 15px; /* Increased pagination dot size */
+    height: 15px;
+    margin: 8px;
+    background: #ffffff;
+    border-radius: 50%;
+    opacity: 0.8;
+    transition: opacity 0.3s;
+}
+
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls .owl-page:hover span {
+    opacity: 1;
+    background: #EF4A50;
+}
+
 
 /* Testimonials Section */
 .test {
-    background: url('testimonals.jpg') no-repeat center center;
+    background: url('/css/testimonals.jpg') no-repeat center center;
     background-size: cover;
     color: #fff;
     text-align: center;
-    padding: 60px 20px;
+    padding: 100px 40px; /* Increase padding for more height */
 }
 
-.test h3 {
-    font-size: 36px;
-    font-weight: bold;
-    margin-bottom: 20px;
-    color: #ffffff;
-}
-
-   .test h3 span {
-        color: #EF4A50;
+    .test h3 {
+        font-size: 2.5em;
+        font-weight: 400;
         text-transform: uppercase;
+        margin-bottom: 40px;
+        color: #ffffff;
     }
 
+    .test h3 span {
+        color: #EF4A50;
+        text-transform: uppercase;
+        font-weight: 700;
+        
+    }
+
+#owl-demo2 {
+    max-width: 1200px; /* Increase container width */
+    margin: 0 auto;
+}
+
 .item-bottom {
-    background: rgba(0, 0, 0, 0.6);
-    padding: 20px;
-    border-radius: 12px;
-    margin: 10px auto;
-    max-width: 800px;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 40px; /* Increase padding for more content space */
+    border-radius: 15px;
+    margin: 20px auto;
+    width: 100%; /* Full width */
+    max-width: 1000px; /* Adjust max width for responsiveness */
     transition: transform 0.3s ease;
 }
 
@@ -498,19 +577,49 @@ a.browse {
         transform: scale(1.05);
     }
 
-.owl-theme .owl-controls .owl-page span {
-    display: inline-block;
-    width: 12px;
-    height: 12px;
-    background: #ffffff;
-    border-radius: 50%;
-    opacity: 0.7;
+.item-right p {
+    font-size: 22px; /* Larger text size */
+    line-height: 1.8;
+    color: #f0f0f0;
+    margin-bottom: 20px;
 }
 
-.owl-theme .owl-controls .owl-page.active span {
-    background: #EF4A50;
-    opacity: 1;
+.item-right span {
+    display: block;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #FFD700;
 }
+
+label {
+    font-weight: normal;
+    font-style: italic;
+    color: #F0F0F0;
+}
+
+.owl-theme .owl-controls .owl-pagination {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.owl-theme .owl-controls .owl-page span {
+    display: inline-block;
+    width: 15px; /* Increase pagination dot size */
+    height: 15px;
+    margin: 8px;
+    background: #ffffff;
+    border-radius: 50%;
+    opacity: 0.8;
+    transition: opacity 0.3s;
+}
+
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls .owl-page:hover span {
+    opacity: 1;
+    background: #EF4A50;
+}
+
 
 
 
@@ -527,15 +636,15 @@ a.browse {
 }
 
     .contact-grid h3 {
-        margin: 0 0 0.3em;
-        font-size: 3.5em;
-        color: #000;
+        font-size: 2.5em;
+        font-weight: 400;
         text-transform: uppercase;
-        font-weight: 300;
+        color: #000;
+        margin-bottom: 30px;
     }
 
         .contact-grid h3 span {
-            font-weight: 600;
+            font-weight: 700;
         }
 
     .contact-grid p {
@@ -786,7 +895,7 @@ ul.social-ic-icons {
     height: 48px;
     border: none;
     text-indent: -9999px; /* Hide text if any */
-    background: url('/css/uparrow.png') no-repeat center center; /* Ensure proper centering */
+    background: url('/css/up.png') no-repeat center center; /* Ensure proper centering */
     background-size: contain; /* Scale the arrow to fit the button */
 }
 

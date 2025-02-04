@@ -57,3 +57,17 @@ $(document).ready(function () {
         animateOut: 'fadeOut'
     });
 });
+
+
+
+//for clients curosel
+$(document).ready(function () {
+    $("#owl-demo1").owlCarousel({
+        items: 1,             // Show one set of clients at a time
+        loop: true,           // Loop through the items
+        autoplay: true,       // Automatically play the carousel
+        autoplayTimeout: 5000, // Delay between transitions (ms)
+        dots: true,           // Show pagination dots
+        nav: false            // Disable navigation arrows
+    });
+});
