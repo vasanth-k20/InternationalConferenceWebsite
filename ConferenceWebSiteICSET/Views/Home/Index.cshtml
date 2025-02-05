@@ -1,5 +1,5 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Home";
 }
 
 <section class="header">
@@ -18,8 +18,7 @@
 </section>
 
 
-
-<!--content-->
+<!--content(about)-->
 <section class="content">
     <div class="container">
         <div class="about" id="about">
@@ -33,19 +32,19 @@
                 <ul>
                     <li>
                         <a href="#">
-                            <label></label>
+                            <label style="background: url('../../wwwroot/css/bullet.jpg') -14px -23px; width: 29px; height: 21px;"></label>
                             Mission -<i> We deliver uniqueness and quality</i>
                         </a>
                     </li>
                     <li>
                         <a href="#">
-                            <label></label>
+                            <label style="background: url('bullet.jpg') -14px -23px; width: 29px; height: 21px;"></label>
                             Skills -<i> Delivering fast and excellent results</i>
                         </a>
                     </li>
                     <li>
                         <a href="#">
-                            <label></label>
+                            <label style="background: url('bullet.jpg') -14px -23px; width: 29px; height: 21px;"></label>
                             Clients -<i> Satisfied clients thanks to our experience</i>
                         </a>
                     </li>
@@ -57,7 +56,6 @@
         </div>
     </div>
 </section>
-
 
 
 <!--services-->
@@ -98,7 +96,7 @@
             <h3>SOME OF OUR <span>CLIENTS</span></h3>
 
             <!-- Start carousel -->
-            <div id="owl-demo1" class="owl-carousel owl-theme">
+            <div id="owl-demo1" class="owl-carousel owl-theme" >
                 <div class="item-left">
                     <a href="#"><img class="channel" src="/css/client.jpg" alt="Client 1"></a>
                     <a href="#"><img class="channel" src="/css/client.jpg" alt="Client 2"></a>
@@ -107,16 +105,80 @@
                     <a href="#"><img class="channel" src="/css/client.jpg" alt="Client 5"></a>
                 </div>
                 <div class="item-left">
-                    <a href="#"><img class="channel" src="/css/client.jpg" alt="Client 1"></a>
-                    <a href="#"><img class="channel" src="/css/client.jpg" alt="Client 2"></a>
-                    <a href="#"><img class="channel" src="/css/client.jpg" alt="Client 3"></a>
-                    <a href="#"><img class="channel" src="/css/client.jpg" alt="Client 4"></a>
-                    <a href="#"><img class="channel" src="/css/client.jpg" alt="Client 5"></a>
+                    <a href="#"><img class="channel mb-5" src="/css/client.jpg" alt="Client 1"></a>
+                    <a href="#"><img class="channel mb-5" src="/css/client.jpg" alt="Client 2"></a>
+                    <a href="#"><img class="channel mb-5" src="/css/client.jpg" alt="Client 3"></a>
+                    <a href="#"><img class="channel mb-5" src="/css/client.jpg" alt="Client 4"></a>
+                    <a href="#"><img class="channel mb-5" src="/css/client.jpg" alt="Client 5"></a>
                 </div>
             </div>
         </div>
     </div>
 
+</section>
+
+
+<!--portfolio-->
+<section class="portfolio-section" id="portfolio">
+    <div class="container">
+        <div class="portfolio-header">
+            <h3>Take a Look at <span>Our Work</span></h3>
+            <p>Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" by Cicero, written in 45 BC.</p>
+        </div>
+        <div class="filter-section">
+            <h6>Filter by Type</h6>
+            <ul class="filters">
+                <li><span class="filter active" data-filter="all">All</span></li>
+                <li><span class="filter" data-filter="web">Web Design</span></li>
+                <li><span class="filter" data-filter="mobile">Mobile Design</span></li>
+                <li><span class="filter" data-filter="photo">Photography</span></li>
+            </ul>
+        </div>
+        <div id="portfoliolist" class="portfolio-grid">
+            <div class="portfolio-item mix web">
+                <img src="~/css/webdesign.jpg" alt="Web Design">
+                <div class="overlay">
+                    <h5>Web Design</h5>
+                    <p>Trend and Fashion</p>
+                </div>
+            </div>
+            <div class="portfolio-item mix photo">
+                <img src="~/css/photography.jpg" alt="Photography">
+                <div class="overlay">
+                    <h5>Photography</h5>
+                    <p>ON:Limited</p>
+                </div>
+            </div>
+            <div class="portfolio-item mix mobile">
+                <img src="~/css/mobile.jpg" alt="Mobile Design">
+                <div class="overlay">
+                    <h5>Mobile Design</h5>
+                    <p>Signup Flow</p>
+                </div>
+            </div>
+            <div class="portfolio-item mix web">
+                <img src="~/css/webdesign.jpg" alt="Web Design 2">
+                <div class="overlay">
+                    <h5>Web Design</h5>
+                    <p>E-commerce Portal</p>
+                </div>
+            </div>
+            <div class="portfolio-item mix photo">
+                <img src="~/css/photography.jpg" alt="Photography 2">
+                <div class="overlay">
+                    <h5>Photography</h5>
+                    <p>Nature Shots</p>
+                </div>
+            </div>
+            <div class="portfolio-item mix mobile">
+                <img src="~/css/mobile.jpg" alt="Mobile Design 2">
+                <div class="overlay">
+                    <h5>Mobile Design</h5>
+                    <p>Food Delivery App</p>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 
 
@@ -147,8 +209,7 @@
     </div>
 </section>
 
-
-    
+  
 <!--contact-->
 <section class="contact" id="contact">
     <div class="container">
@@ -205,23 +266,22 @@
 </section>
 
 
-
 <!--footer-->
-<section class="footer">
-    <div class="container">
-        <div class="footer-class">
-            <p class="footer-grid">
-                Copyrights © 2024, All Rights Reserved. Powered By BICSET
-            </p>
-            <ul class="social-ic-icons">
-                <li class="facebook"><a href="#"><span></span></a></li>
-                <li class="twitter"><a href="#"><span></span></a></li>
-                <li class="gmail"><a href="#"><span></span></a></li>
-                <li class="browser"><a href="#"><span></span></a></li>
-            </ul>
+@* <section class="footer"> *@
+@*     <div class="container"> *@
+@*         <div class="footer-class"> *@
+@*             <p class="footer-grid"> *@
+@*                 Copyrights © 2024, All Rights Reserved. Powered By BICSET *@
+@*             </p> *@
+@*             <ul class="social-ic-icons"> *@
+@*                 <li class="facebook"><a href="#"><span></span></a></li> *@
+@*                 <li class="twitter"><a href="#"><span></span></a></li> *@
+@*                 <li class="gmail"><a href="#"><span></span></a></li> *@
+@*                 <li class="browser"><a href="#"><span></span></a></li> *@
+@*             </ul> *@
 
-            <div class="clearfix"></div>
-        </div>
-    </div>
-    <a href="#" id="toTop"><span id="toTopHover"></span></a>
-</section>
+@*             <div class="clearfix"></div> *@
+@*         </div> *@
+@*     </div> *@
+@*     <a href="#" id="toTop"><span id="toTopHover"></span></a> *@
+@* </section> *@

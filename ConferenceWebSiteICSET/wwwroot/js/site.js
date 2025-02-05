@@ -71,3 +71,31 @@ $(document).ready(function () {
         nav: false            // Disable navigation arrows
     });
 });
+
+
+
+
+//for our work portfolio section
+document.addEventListener('DOMContentLoaded', () => {
+    const filters = document.querySelectorAll('.filter');
+    const portfolioItems = document.querySelectorAll('.portfolio-item');
+
+    filters.forEach(filter => {
+        filter.addEventListener('click', () => {
+            // Remove active class from all filters
+            filters.forEach(f => f.classList.remove('active'));
+            // Add active class to the clicked filter
+            filter.classList.add('active');
+
+            const filterValue = filter.getAttribute('data-filter');
+
+            portfolioItems.forEach(item => {
+                if (filterValue === 'all' || item.classList.contains(filterValue)) {
+                    item.style.display = 'block';
+                } else {
+                    item.style.display = 'none';
+                }
+            });
+        });
+    });
+});

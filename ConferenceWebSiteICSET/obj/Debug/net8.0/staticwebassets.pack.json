@@ -29,6 +29,10 @@
       "PackagePath": "staticwebassets\\css\\browser.png"
     },
     {
+      "Id": "C:\\Users\\office\\OneDrive\\Desktop\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\wwwroot\\css\\bullet.jpg",
+      "PackagePath": "staticwebassets\\css\\bullet.jpg"
+    },
+    {
       "Id": "C:\\Users\\office\\OneDrive\\Desktop\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\wwwroot\\css\\client.jpg",
       "PackagePath": "staticwebassets\\css\\client.jpg"
     },
@@ -57,6 +61,14 @@
       "PackagePath": "staticwebassets\\css\\logo1.png"
     },
     {
+      "Id": "C:\\Users\\office\\OneDrive\\Desktop\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\wwwroot\\css\\mobile.jpg",
+      "PackagePath": "staticwebassets\\css\\mobile.jpg"
+    },
+    {
+      "Id": "C:\\Users\\office\\OneDrive\\Desktop\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\wwwroot\\css\\photography.jpg",
+      "PackagePath": "staticwebassets\\css\\photography.jpg"
+    },
+    {
       "Id": "C:\\Users\\office\\OneDrive\\Desktop\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\wwwroot\\css\\ser1.png",
       "PackagePath": "staticwebassets\\css\\ser1.png"
     },
@@ -83,6 +95,10 @@
     {
       "Id": "C:\\Users\\office\\OneDrive\\Desktop\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\wwwroot\\css\\up.png",
       "PackagePath": "staticwebassets\\css\\up.png"
+    },
+    {
+      "Id": "C:\\Users\\office\\OneDrive\\Desktop\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\wwwroot\\css\\webdesign.jpg",
+      "PackagePath": "staticwebassets\\css\\webdesign.jpg"
     },
     {
       "Id": "C:\\Users\\office\\OneDrive\\Desktop\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\wwwroot\\css\\x.png",

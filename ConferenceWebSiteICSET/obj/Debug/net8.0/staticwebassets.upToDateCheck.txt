@@ -3,6 +3,7 @@ wwwroot\css\about2.jpg
 wwwroot\css\Adobe Express - file.png
 wwwroot\css\banner.jpg
 wwwroot\css\browser.png
+wwwroot\css\bullet.jpg
 wwwroot\css\client.jpg
 wwwroot\css\contact.jpg
 wwwroot\css\down.png
@@ -11,6 +12,8 @@ wwwroot\css\gmail.png
 wwwroot\css\logo.ico
 wwwroot\css\logo1.png
 wwwroot\css\LOGO2.PNG
+wwwroot\css\mobile.jpg
+wwwroot\css\photography.jpg
 wwwroot\css\ser1.png
 wwwroot\css\ser2.png
 wwwroot\css\ser3.png
@@ -18,6 +21,7 @@ wwwroot\css\ser4.png
 wwwroot\css\site.css
 wwwroot\css\testimonals.jpg
 wwwroot\css\up.png
+wwwroot\css\webdesign.jpg
 wwwroot\css\x.png
 wwwroot\favicon.ico
 wwwroot\js\site.js

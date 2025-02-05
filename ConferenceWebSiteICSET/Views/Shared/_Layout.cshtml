@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="~/ConferenceWebSiteICSET.styles.css" asp-append-version="true" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"rel="stylesheet" />
 </head>
 <body>
 
@@ -21,10 +22,28 @@
             <nav class="top-nav">
                 <span class="menu-toggle">&#9776;</span>
                 <ul class="nav-links">
-                    <li class="active"><a href="#">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li class="active"><a asp-action="Index" asp-controller="Home">Home</a></li>
+                    <li class="dropdown">
+                        <a href="#about">About Us</a>
+                        <ul class="dropdown-menu">
+                            <li><a asp-action="About_the_Conference" asp-controller="AboutUs">About the Conference</a></li>
+                            <li><a asp-action="Scope_of_conference" asp-controller="AboutUs">Scope of conference</a></li>
+                            <li><a asp-action="Origizing_Comittee" asp-controller="AboutUs">Origizing Comittee</a></li>
+                            <li><a asp-action="Editorial_Board" asp-controller="AboutUs">Editorial Board</a></li>
+                        </ul>
+                    </li>
+                    <li><a asp-action="Services" asp-controller="Home">Services</a></li>
+                    <li><a asp-action="Portfolio" asp-controller="Home">Portfolio</a></li>
+                    <li class="dropdown">
+                        <a href="#author's">Author's Desk</a>
+                        <ul class="dropdown-menu">
+                            <li><a asp-action="Journal_Publication" asp-controller="Authors_Desk">Journal Publication</a></li>
+                            <li><a asp-action="Key_Date" asp-controller="Authors_Desk">Key Date</a></li>
+                            <li><a asp-action="Registration_Details" asp-controller="Authors_Desk">Registration Details</a></li>
+                            <li><a asp-action="New_paper_submission" asp-controller="Authors_Desk">New paper submission</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#speakers">Speakers</a></li>
                     <li><a href="#test">Testimonials</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
@@ -32,7 +51,79 @@
         </div>
     </header>
 
+
      @RenderBody()
+
+
+
+    <footer class="bg-body-tertiary text-center bg-black">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+            <!-- Section: Social media -->
+            <section class="mb-4">
+                <!-- Facebook -->
+                <a data-mdb-ripple-init
+                   class="btn text-white btn-floating m-1"
+                   style="background-color: #3b5998;"
+                   href="#!"
+                   role="button">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+
+                <!-- Twitter -->
+                <a data-mdb-ripple-init
+                   class="btn text-white btn-floating m-1"
+                   style="background-color: #55acee;"
+                   href="#!"
+                   role="button">
+                    <i class="fab fa-twitter"></i>
+                </a>
+
+                <!-- Google -->
+                <a data-mdb-ripple-init
+                   class="btn text-white btn-floating m-1"
+                   style="background-color: #dd4b39;"
+                   href="#!"
+                   role="button">
+                    <i class="fab fa-google"></i>
+                </a>
+
+                <!-- Instagram -->
+                <a data-mdb-ripple-init
+                   class="btn text-white btn-floating m-1"
+                   style="background-color: #ac2bac;"
+                   href="#!"
+                   role="button">
+                    <i class="fab fa-instagram"></i>
+                </a>
+
+                <!-- Linkedin -->
+                <a data-mdb-ripple-init
+                   class="btn text-white btn-floating m-1"
+                   style="background-color: #0082ca;"
+                   href="#!"
+                   role="button">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <!-- Github -->
+                <a data-mdb-ripple-init
+                   class="btn text-white btn-floating m-1"
+                   style="background-color: #333333;"
+                   href="#!"
+                   role="button">
+                    <i class="fab fa-github"></i>
+                </a>
+            </section>
+            <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: dimgray;">
+            © 2020 Copyright:
+            <a class="text-body" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
