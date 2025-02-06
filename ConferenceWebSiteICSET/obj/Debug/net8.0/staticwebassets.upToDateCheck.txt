@@ -2,6 +2,7 @@ wwwroot\css\about.jpg
 wwwroot\css\about2.jpg
 wwwroot\css\Adobe Express - file.png
 wwwroot\css\banner.jpg
+wwwroot\css\banner2.jpg
 wwwroot\css\browser.png
 wwwroot\css\bullet.jpg
 wwwroot\css\client.jpg
