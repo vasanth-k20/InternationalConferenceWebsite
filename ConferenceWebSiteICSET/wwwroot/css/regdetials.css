@@ -1,8 +1,7 @@
 ﻿/* Global Font */
 body {
     font-family: 'Open Sans', sans-serif;
-    margin: 0;
-    padding: 0;
+    background-color: #f9f9f9; /* Light background */
 }
 
 /* Container */
@@ -14,15 +13,14 @@ body {
 
 /* Section Heading */
 .section-heading h3 {
-    font-size: 1.8rem;
+    font-size: 2rem;
     color: #2b78e4;
-    background-color: #e9f0fa;
-    padding: 10px 20px;
-    border-radius: 30px;
+    font-weight: bold;
     text-align: center;
-    display: inline-block;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    padding: 10px 0;
+    border-bottom: 2px solid #2b78e4;
+    border-radius: 8px;
 }
 
 /* Instructions List */
@@ -34,18 +32,22 @@ body {
     font-size: 1rem;
     font-weight: 600;
     padding: 15px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     border-radius: 10px;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(135deg, #ffffff, #f8f9fa); /* Light gradient */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    color: #2b2b2b;
+    border: 1px solid #e0e0e0;
 }
 
+/* Light Background Variants */
 .light-blue {
-    background-color: #dce9f8;
+    background-color: #e3f2fd; /* Soft blue */
     color: #2b78e4;
 }
 
 .light-lavender {
-    background-color: #f4f7fc;
+    background-color: #f9f9fc; /* Soft lavender */
     color: #5a5a5a;
 }
 
@@ -54,23 +56,24 @@ body {
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
+    background: linear-gradient(135deg, #ffffff, #f8f9fa); /* Matching gradient */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
     overflow: hidden;
 }
 
 .bank-details td {
-    padding: 10px 15px;
+    padding: 12px 15px;
     font-size: 1rem;
 }
 
 .detail-title {
-    background-color: #f4f7fc;
+    background-color: #f9f9fc;
     color: #5a5a5a;
     text-align: right;
     font-weight: bold;
-    width: 40%;
-    border-right: 2px solid #e0e0e0;
+    border-right: 1px solid #e0e0e0;
+    padding-right: 15px;
 }
 
 .detail-info {
@@ -79,11 +82,15 @@ body {
     text-align: left;
 }
 
+/* Hover Effect for Table Rows */
+.bank-details tr:hover {
+    background-color: #f2f4f7;
+}
+
 /* Responsive Design */
 @media screen and (max-width: 768px) {
     .section-heading h3 {
         font-size: 1.5rem;
-        padding: 8px 16px;
     }
 
     .instruction-item {
@@ -93,19 +100,18 @@ body {
 
     .bank-details td {
         font-size: 0.9rem;
-        padding: 8px 10px;
+        padding: 8px;
     }
 
     .detail-title {
         text-align: left;
-        width: 100%;
+        font-weight: bold;
         border-right: none;
         background-color: #f4f7fc;
-        font-weight: bold;
     }
 
     .detail-info {
-        padding: 8px 10px;
+        padding: 8px;
         background-color: #fff;
         border-bottom: 1px solid #e0e0e0;
     }
@@ -113,7 +119,6 @@ body {
     .bank-details tr {
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
         margin-bottom: 10px;
     }
 }

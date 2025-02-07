@@ -16,19 +16,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
-//for clients curosel(services)
-$(document).ready(function () {
-    $("#owl-demo1").owlCarousel({
-        items: 1,
-        loop: true,
-        autoplay: true,
-        autoplayTimeout: 5000,
-        dots: true,
-        nav: false
-    });
-});
-
-
 //for our work portfolio section
 document.addEventListener('DOMContentLoaded', () => {
     const filters = document.querySelectorAll('.filter');
@@ -49,19 +36,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
             });
         });
-    });
-});
-
-
-//for testimonal curosel
-$(document).ready(function () {
-    $("#owl-demo2").owlCarousel({
-        items: 1,
-        loop: true,
-        autoplay: true,
-        autoplayTimeout: 5000,
-        dots: true,
-        animateOut: 'fadeOut'
     });
 });
 
@@ -87,13 +61,6 @@ document.addEventListener("DOMContentLoaded", function () {
             behavior: "smooth", 
         });
     });
-});
-
-
-//for countrycode
-document.getElementById('country-code').addEventListener('change', function () {
-    const selectedOption = this.options[this.selectedIndex].text;
-    document.getElementById('contact-number').placeholder = selectedOption;
 });
 
 

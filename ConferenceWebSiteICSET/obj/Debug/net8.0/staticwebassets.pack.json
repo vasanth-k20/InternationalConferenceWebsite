@@ -93,12 +93,16 @@
       "PackagePath": "staticwebassets\\css\\orgainzer.css"
     },
     {
+      "Id": "C:\\Users\\office\\OneDrive\\Desktop\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\wwwroot\\css\\papersub.css",
+      "PackagePath": "staticwebassets\\css\\papersub.css"
+    },
+    {
       "Id": "C:\\Users\\office\\OneDrive\\Desktop\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\wwwroot\\css\\photography.jpg",
       "PackagePath": "staticwebassets\\css\\photography.jpg"
     },
     {
-      "Id": "C:\\Users\\office\\OneDrive\\Desktop\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\wwwroot\\css\\regdetails.css",
-      "PackagePath": "staticwebassets\\css\\regdetails.css"
+      "Id": "C:\\Users\\office\\OneDrive\\Desktop\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\wwwroot\\css\\regdetials.css",
+      "PackagePath": "staticwebassets\\css\\regdetials.css"
     },
     {
       "Id": "C:\\Users\\office\\OneDrive\\Desktop\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\wwwroot\\css\\ser1.png",

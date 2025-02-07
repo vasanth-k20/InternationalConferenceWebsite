@@ -20,8 +20,9 @@ wwwroot\css\logoo.png
 wwwroot\css\logoo2.png
 wwwroot\css\mobile.jpg
 wwwroot\css\orgainzer.css
+wwwroot\css\papersub.css
 wwwroot\css\photography.jpg
-wwwroot\css\regdetails.css
+wwwroot\css\regdetials.css
 wwwroot\css\ser1.png
 wwwroot\css\ser2.png
 wwwroot\css\ser3.png

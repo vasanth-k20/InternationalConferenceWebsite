@@ -94,12 +94,12 @@ body {
     left: 0;
     background-color: white;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    padding: 0;
+    padding-top:0;
     margin: 0;
     list-style: none;
     border-radius: 5px;
     z-index: 1000;
-    min-width: 150px;
+    min-width: 255px;
 }
 
     .nav-links .dropdown-menu li {
@@ -201,6 +201,7 @@ body {
         }
 
 .scroll-icon {
+    padding-top:300px;
     margin-top: 2em;
     width: 40px;
     animation: bounce 2s infinite;
@@ -459,243 +460,129 @@ body {
 
 
 
-    /* Services Section */
-    .services {
-        text-align: center;
-        padding: 50px 0;
-        background: #fff;
+/* keydates Section */
+/* Updated Key Dates Section for Similar Look */
+.key-dates-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 20px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.key-dates-title {
+    font-size: 2.5em;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.key-dates-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.key-date-item {
+    background: linear-gradient(135deg, #d4af37, #f0e68c); /* Mimics the golden look */
+    border: 1px solid #fcac45;
+    border-radius: 12px;
+    padding: 30px;
+    color: #000;
+    text-align: center;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+    .key-date-item:nth-child(odd) {
+        background: #fff; /* Alternating light background */
     }
 
-    .services-grid h3 {
-        font-size: 2.5em;
-        font-weight: 400;
-        text-transform: uppercase;
-        color: #000;
-        margin-bottom: 30px;
+    .key-date-item:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
     }
 
-        .services-grid h3 span {
-            font-weight: 700;
-        }
+.icon {
+    font-size: 3em;
+    color: #2e1f60; /* Matching deep purple color */
+    margin-bottom: 20px;
+}
 
-    .services-grid img {
-        display: block;
-        margin: 10px auto;
+.key-date-heading {
+    font-size: 1.6em;
+    font-weight: 600;
+    margin: 15px 0;    
+}
+
+.divider {
+    border: 0;
+    height: 2px;
+    background: #fcac45;
+    margin: 20px 0;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.key-date {
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .key-dates-title {
+        font-size: 2em;
     }
 
-    .services-grid p {
-        font-size: 1.2em;
-        color: #444;
-        width: 70%;
-        margin: 0 auto;
-        font-style: italic;
+    .key-dates-grid {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     }
 
-    /* Service Boxes */
-    .ser-grid {
-        display: flex;
-        justify-content: space-between;
-        margin-top: 40px;
-    }
-
-    .ser-in {
-        flex: 1;
-        text-align: center;
+    .key-date-item {
         padding: 20px;
     }
 
-        .ser-in a {
-            display: block;
-            width: 100px;
-            height: 100px;
-            margin: 0 auto 20px;
-            /*        border: 4px solid ;*/
-            border-radius: 50%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-            .ser-in a span {
-                display: block;
-                width: 100px;
-                height: 100px;
-                background-size: contain;
-                background-repeat: no-repeat;
-            }
-
-            /* Icons */
-            .ser-in a span {
-                background-image: url("ser1.png");
-            }
-
-            .ser-in a .mobile {
-                background-image: url("ser2.png");
-            }
-
-            .ser-in a .camera {
-                background-image: url("ser3.png");
-            }
-
-            .ser-in a .mike {
-                background-image: url("ser4.png");
-            }
-
-        .ser-in h6 {
-            font-size: 1.5em;
-            font-weight: bold;
-            margin: 10px 0;
-        }
-
-        .ser-in p {
-            font-size: 1.1em;
-            color: #555;
-            max-width: 80%;
-            margin: 0 auto;
-        }
-
-    /* Responsive */
-    @media (max-width: 1024px) {
-        .ser-grid {
-            flex-wrap: wrap;
-            justify-content: center;
-        }
-
-        .ser-in {
-            flex: 0 1 45%;
-            margin-bottom: 20px;
-        }
+    .icon {
+        font-size: 2.5em;
     }
 
-    @media (max-width: 768px) {
-        .ser-in {
-            flex: 0 1 100%;
-        }
-
-        .services-grid p {
-            width: 90%;
-        }
+    .key-date-heading {
+        font-size: 1.4em;
     }
 
+    .key-date {
+        font-size: 1.6em;
+    }
+}
 
-    .clients {
-        background: url('/css/banner.jpg') no-repeat center center;
-        background-size: cover;
-        padding: 100px 30px;
-        color: #fff;
-        text-align: center;
+@media (max-width: 480px) {
+    .key-dates-title {
+        font-size: 1.6em;
     }
 
-        .clients h3 {
-            font-size: 2.5em;
-            font-weight: 400;
-            text-transform: uppercase;
-            margin-bottom: 40px;
-            color: #ffffff;
-        }
-
-            .clients h3 span {
-                color: #EF4A50;
-                text-transform: uppercase;
-                font-weight: 700;
-            }
-
-    #owl-demo1 {
-        max-width: 1400px;
-        margin: 0 auto;
-        padding: 30px 0;
+    .key-dates-grid {
+        grid-template-columns: 1fr;
     }
 
-    .item-left {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 40px;
+    .key-date-item {
+        padding: 15px;
     }
 
-        .item-left a img {
-            max-height: 150px;
-            transition: transform 0.3s;
-        }
-
-            .item-left a img:hover {
-                transform: scale(1.2);
-            }
-
-    /* Owl pagination */
-    .owl-theme .owl-controls .owl-pagination {
-        margin-top: 30px;
-        text-align: center;
+    .icon {
+        font-size: 2em;
     }
 
-    .owl-theme .owl-controls .owl-page span {
-        display: inline-block;
-        width: 15px;
-        height: 15px;
-        margin: 8px;
-        background: #ffffff;
-        border-radius: 50%;
-        opacity: 0.8;
-        transition: opacity 0.3s;
+    .key-date-heading {
+        font-size: 1.2em;
     }
 
-    .owl-theme .owl-controls .owl-page.active span,
-    .owl-theme .owl-controls .owl-page:hover span {
-        opacity: 1;
-        background: #EF4A50;
+    .key-date {
+        font-size: 1.4em;
     }
-
-    /* Responsive styles for smaller devices */
-    @media (max-width: 768px) {
-        .clients {
-            padding: 50px 20px;
-        }
-
-            .clients h3 {
-                font-size: 2em;
-            }
-
-        #owl-demo1 {
-            padding: 20px 0;
-        }
-
-        .item-left {
-            flex-wrap: wrap;
-            gap: 20px;
-        }
-
-            .item-left a img {
-                max-height: 100px;
-            }
-
-        .owl-theme .owl-controls .owl-page span {
-            width: 12px;
-            height: 12px;
-        }
-
-        .owl-theme .owl-controls .owl-page {
-            margin: 5px;
-        }
-    }
-
-    @media (max-width: 480px) {
-        .clients {
-            padding: 30px 15px;
-        }
-
-            .clients h3 {
-                font-size: 1.8em;
-            }
-
-        .item-left a img {
-            max-height: 80px;
-        }
-
-        .owl-theme .owl-controls .owl-page span {
-            width: 10px;
-            height: 10px;
-        }
-    }
+}
 
 
 
@@ -874,151 +761,7 @@ body {
 
 
     /* Testimonials Section */
-    .test {
-        background: url('/css/testimonals.jpg') no-repeat center center;
-        background-size: cover;
-        color: #fff;
-        text-align: center;
-        padding: 100px 20px;
-    }
-
-        .test h3 {
-            font-size: 2.2em;
-            font-weight: 400;
-            text-transform: uppercase;
-            margin-bottom: 30px;
-            color: #ffffff;
-        }
-
-            .test h3 span {
-                color: #EF4A50;
-                text-transform: uppercase;
-                font-weight: 700;
-            }
-
-    #owl-demo2 {
-        max-width: 100%;
-        margin: 0 auto;
-        padding: 0 15px;
-    }
-
-    .item-bottom {
-        background: rgba(0, 0, 0, 0.7);
-        padding: 30px;
-        border-radius: 10px;
-        margin: 15px auto;
-        width: 90%;
-        max-width: 800px;
-        transition: transform 0.3s ease;
-    }
-
-        .item-bottom:hover {
-            transform: scale(1.05);
-        }
-
-    .item-right p {
-        font-size: 18px;
-        line-height: 1.6;
-        color: #f0f0f0;
-        margin-bottom: 15px;
-    }
-
-    .item-right span {
-        display: block;
-        margin-top: 15px;
-        font-weight: bold;
-        font-size: 18px;
-        color: #FFD700;
-    }
-
-    label {
-        font-weight: normal;
-        font-style: italic;
-        color: #F0F0F0;
-    }
-
-    .owl-theme .owl-controls .owl-pagination {
-        margin-top: 20px;
-        text-align: center;
-    }
-
-    .owl-theme .owl-controls .owl-page span {
-        display: inline-block;
-        width: 12px;
-        height: 12px;
-        margin: 6px;
-        background: #ffffff;
-        border-radius: 50%;
-        opacity: 0.8;
-        transition: opacity 0.3s;
-    }
-
-    .owl-theme .owl-controls .owl-page.active span,
-    .owl-theme .owl-controls .owl-page:hover span {
-        opacity: 1;
-        background: #EF4A50;
-    }
-
-    /* Responsive Design */
-    @media (max-width: 768px) {
-        .test {
-            padding: 80px 20px;
-        }
-
-            .test h3 {
-                font-size: 2em;
-                margin-bottom: 25px;
-            }
-
-        #owl-demo2 {
-            padding: 0 10px;
-        }
-
-        .item-bottom {
-            padding: 25px;
-            margin: 10px auto;
-        }
-
-        .item-right p {
-            font-size: 16px;
-            line-height: 1.5;
-        }
-
-        .item-right span {
-            font-size: 16px;
-        }
-    }
-
-    @media (max-width: 480px) {
-        .test {
-            padding: 60px 15px;
-        }
-
-            .test h3 {
-                font-size: 1.8em;
-                margin-bottom: 20px;
-            }
-
-        .item-bottom {
-            padding: 20px;
-            margin: 10px auto;
-        }
-
-        .item-right p {
-            font-size: 14px;
-        }
-
-        .item-right span {
-            font-size: 14px;
-        }
-
-        .owl-theme .owl-controls .owl-page span {
-            width: 10px;
-            height: 10px;
-            margin: 5px;
-        }
-    }
-
+    
 
 
     /*--CONTACT--*/
@@ -1127,17 +870,6 @@ body {
             transform: scale(1.05);
         }
 
-    /* Dropdown Styling */
-    .contact-left select {
-        width: 100%;
-        padding: 1em;
-        margin: 1em 0;
-        border: 1px solid #636363;
-        background: none;
-        outline: none;
-        -webkit-appearance: none;
-    }
-
     /* Contact Details Section */
     .contact-details {
         margin-top: 3em;
@@ -1190,6 +922,85 @@ body {
     }
 
 
+/* Main Section Styling */
+.event-details-section {
+    background: #1b1b2f;
+    color: #fff;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+/* Event Detail Container */
+.event-detail-container {
+    display: flex;
+    justify-content: center;
+    gap: 500px;
+    flex-wrap: wrap;
+}
+
+/* Event Detail Box */
+.event-detail-box {
+    background: rgb(156, 156, 156, 0.56);
+    padding: 20px 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Icon Styling */
+.icon {
+    font-size: 36px;
+    color: #ef4a50;
+    margin-bottom: 10px;
+}
+
+/* Detail Titles */
+.detail-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Detail Info */
+.detail-info {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Register Button Container */
+.register-button-container {
+    margin-top: 30px;
+}
+
+/* Register Button */
+.register-button {
+    background: #ef4a50;
+    color: #fff;
+    padding: 12px 24px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 8px;
+    text-decoration: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+    .register-button:hover {
+        background: #d63c44;
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+    }
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    .event-detail-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
 
 
     /*--footer--*/
