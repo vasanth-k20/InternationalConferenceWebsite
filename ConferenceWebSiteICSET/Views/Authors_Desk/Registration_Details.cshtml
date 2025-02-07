@@ -1,4 +1,12 @@
-﻿<!-- Background Image Section -->
+﻿@{
+    ViewData["Title"] = "Registration Details";
+}
+
+
+<link href="~/css/regdetails.css" rel="stylesheet" />
+
+
+<!-- Background Image Section -->
 <div id="intro-example" class="img-fluid" style="height: 30vh; width: 100%; background-image: url('/css/banner2.jpg'); background-size: cover; background-position: center;">
     <div class="mask w-100 h-100 bg-dark bg-opacity-50 d-flex flex-column justify-content-center align-items-center">
         <div class="text-white text-center px-3">
@@ -7,6 +15,67 @@
         </div>
     </div>
 </div>
+
+
+<div class="payment-instructions-container">
+    <!-- Payment Instructions Section -->
+    <div class="section-heading">
+        <h3>Payment Instructions</h3>
+    </div>
+
+    <div class="instructions-list">
+        <div class="instruction-item light-blue">
+            Registration fee is payable only after your article is accepted.
+        </div>
+        <div class="instruction-item light-lavender">
+            Payment options: Online Transfer (NEFT / IMPS) or Cash Deposit.
+        </div>
+        <div class="instruction-item light-blue">
+            After payment, send proof (Screenshot / Reference Number / Transaction ID or Counter Slip) along with your Paper ID.
+        </div>
+        <div class="instruction-item light-lavender">
+            At least one author of each accepted paper must register and attend the conference.
+        </div>
+        <div class="instruction-item light-blue">
+            Selected paper abstracts will be published in the conference proceedings with ISBN.
+        </div>
+    </div>
+
+    <!-- Bank Details Section -->
+    <div class="section-heading">
+        <h3>Bank Details</h3>
+    </div>
+
+    <div class="bank-details">
+        <table>
+            <tbody>
+                <tr>
+                    <td class="detail-title">Account Name:</td>
+                    <td class="detail-info">J.K. Jothi Kalpana, Professor, Dept. of Computer Science & Engineering, VRS College of Engineering and Technology, Arasur.</td>
+                </tr>
+                <tr>
+                    <td class="detail-title">Account Number:</td>
+                    <td class="detail-info">045100050302269</td>
+                </tr>
+                <tr>
+                    <td class="detail-title">Branch:</td>
+                    <td class="detail-info">Villupuram</td>
+                </tr>
+                <tr>
+                    <td class="detail-title">IFSC Code:</td>
+                    <td class="detail-info">TMBL0000045</td>
+                </tr>
+                <tr>
+                    <td class="detail-title">MICR:</td>
+                    <td class="detail-info">605060005</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+
+
 
 <!--footer-->
 <section class="footer">

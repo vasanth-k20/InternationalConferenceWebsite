@@ -1,0 +1,87 @@
+﻿/* Global Font */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Container */
+.important-dates-container {
+    max-width: 800px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+/* Heading */
+.important-dates-heading {
+    font-size: 2.2rem;
+    color: #2b78e4;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+/* Rows */
+.important-date-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+    .important-date-row:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    }
+
+/* Blue Row */
+.blue-row {
+    background-color: #dce9f8;
+    color: #2b78e4;
+}
+
+/* Lavender Row */
+.lavender-row {
+    background-color: #f4f7fc;
+    color: #5a5a5a;
+}
+
+/* Title Column */
+.date-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: left;
+    flex: 1;
+    border-right: 2px solid rgba(0, 0, 0, 0.1);
+    padding-right: 20px;
+}
+
+/* Info Column */
+.date-info {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: right;
+    flex: 1;
+    padding-left: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .important-date-row {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .date-title {
+        border-right: none;
+        padding-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .date-info {
+        padding-left: 0;
+    }
+}

@@ -1,0 +1,119 @@
+﻿/* Global Font */
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container */
+.payment-instructions-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+/* Section Heading */
+.section-heading h3 {
+    font-size: 1.8rem;
+    color: #2b78e4;
+    background-color: #e9f0fa;
+    padding: 10px 20px;
+    border-radius: 30px;
+    text-align: center;
+    display: inline-block;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+/* Instructions List */
+.instructions-list {
+    margin-bottom: 40px;
+}
+
+.instruction-item {
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.light-blue {
+    background-color: #dce9f8;
+    color: #2b78e4;
+}
+
+.light-lavender {
+    background-color: #f4f7fc;
+    color: #5a5a5a;
+}
+
+/* Bank Details */
+.bank-details table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.bank-details td {
+    padding: 10px 15px;
+    font-size: 1rem;
+}
+
+.detail-title {
+    background-color: #f4f7fc;
+    color: #5a5a5a;
+    text-align: right;
+    font-weight: bold;
+    width: 40%;
+    border-right: 2px solid #e0e0e0;
+}
+
+.detail-info {
+    background-color: #fff;
+    color: #2b2b2b;
+    text-align: left;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .section-heading h3 {
+        font-size: 1.5rem;
+        padding: 8px 16px;
+    }
+
+    .instruction-item {
+        font-size: 0.9rem;
+        padding: 12px;
+    }
+
+    .bank-details td {
+        font-size: 0.9rem;
+        padding: 8px 10px;
+    }
+
+    .detail-title {
+        text-align: left;
+        width: 100%;
+        border-right: none;
+        background-color: #f4f7fc;
+        font-weight: bold;
+    }
+
+    .detail-info {
+        padding: 8px 10px;
+        background-color: #fff;
+        border-bottom: 1px solid #e0e0e0;
+    }
+
+    .bank-details tr {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 10px;
+    }
+}

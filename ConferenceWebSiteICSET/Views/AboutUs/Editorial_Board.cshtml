@@ -1,4 +1,11 @@
-﻿<!-- Background Image Section -->
+﻿@{
+    ViewData["Title"] = "Editorial Board";
+}
+
+
+<link href="~/css/ediytBoard.css" rel="stylesheet" />
+
+<!-- Background Image Section -->
 <div id="intro-example" class="img-fluid" style="height: 30vh; width: 100%; background-image: url('/css/banner2.jpg'); background-size: cover; background-position: center;">
     <div class="mask w-100 h-100 bg-dark bg-opacity-50 d-flex flex-column justify-content-center align-items-center">
         <div class="text-white text-center px-3">
@@ -7,6 +14,58 @@
         </div>
     </div>
 </div>
+
+
+
+<div class="committee-container">
+    <!-- Section Heading -->
+    <div class="committee-header">
+        <h3>Committee Members</h3>
+    </div>
+
+    <!-- First Row with Two Members -->
+    <div class="committee-row">
+        <div class="committee-card">
+            <strong>Dr. B. Deepanraj</strong>
+            <span>ASP / Mechanical Engg.</span>
+            Prince Mohammed Bin Fahd University,<br>
+            <em>Al Khobar, Saudi Arabia.</em>
+        </div>
+        <div class="committee-card">
+            <strong>Dr. D. Lenin Singaravelu</strong>
+            <span>ASP / Production Engg.</span>
+            National Institute of Technology,<br>
+            <em>Trichy.</em>
+        </div>
+    </div>
+
+    <!-- Second Row with Two Members -->
+    <div class="committee-row">
+        <div class="committee-card">
+            <strong>Dr. N. Senthil Kumar</strong>
+            <span>AP & Head / Mech</span>
+            National Institute of Technology,<br>
+            <em>Karaikal, UT of Puducherry.</em>
+        </div>
+        <div class="committee-card">
+            <strong>Dr. K. Devakumar</strong>
+            <span>Manager</span>
+            Advanced Technology Products,<br>
+            <em>BHEL, Trichy.</em>
+        </div>
+    </div>
+
+    <!-- Single Member at the Center -->
+    <div class="committee-row">
+        <div class="committee-card large">
+            <strong>Dr. Nadir Dizge</strong>
+            <span>Professor</span>
+            Dept. of Environmental Science & Engg.,<br>
+            <em>Mersin University, Turkey.</em>
+        </div>
+    </div>
+</div>
+
 
 
 
