@@ -80,58 +80,54 @@
 <section class="portfolio-section" id="portfolio">
     <div class="container">
         <div class="portfolio-header">
-            <h3>Take a Look at <span>Our Work</span></h3>
-            <p>Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" by Cicero, written in 45 BC.</p>
+            <h3>Take a Look at <span>Our Invitees</span></h3>
         </div>
         <div class="filter-section">
             <h6></h6>
             <ul class="filters">
                 <li><span class="filter active" data-filter="all">All</span></li>
-                <li><span class="filter" data-filter="web">Key Invitees</span></li>
-                <li><span class="filter" data-filter="mobile">Chief Patrons</span></li>
+                <li><span class="filter" data-filter="key">Key Invitees</span></li>
+                <li><span class="filter" data-filter="chief">Chief Patrons</span></li>
             </ul>
         </div>
         <div id="portfoliolist" class="portfolio-grid">
-            <div class="portfolio-item mix web">
-                <img src="~/css/webdesign.jpg" alt="Web Design">
+            <!-- Key Invitees (2 items) -->
+            <div class="portfolio-item mix key">
+                <img src="~/css/webdesign.jpg" alt="Key Invitees">
                 <div class="overlay">
-                    <h5>Web Design</h5>
-                    <p>Trend and Fashion</p>
+                    <h5>Key Invitees</h5>
                 </div>
             </div>
-            <div class="portfolio-item mix photo">
-                <img src="~/css/photography.jpg" alt="Photography">
+            <div class="portfolio-item mix key">
+                <img src="~/css/mobile.jpg" alt="Key Invitees">
                 <div class="overlay">
-                    <h5>Photography</h5>
-                    <p>ON:Limited</p>
+                    <h5>Key Invitees</h5>
                 </div>
             </div>
-            <div class="portfolio-item mix mobile">
-                <img src="~/css/mobile.jpg" alt="Mobile Design">
+
+            <!-- Chief Patrons (4 items) -->
+            <div class="portfolio-item mix chief">
+                <img src="~/css/photography.jpg" alt="Chief Patrons">
                 <div class="overlay">
-                    <h5>Mobile Design</h5>
-                    <p>Signup Flow</p>
+                    <h5>Chief Patrons</h5>
                 </div>
             </div>
-            <div class="portfolio-item mix web">
-                <img src="~/css/webdesign.jpg" alt="Web Design 2">
+            <div class="portfolio-item mix chief">
+                <img src="~/css/webdesign.jpg" alt="Chief Patrons">
                 <div class="overlay">
-                    <h5>Web Design</h5>
-                    <p>E-commerce Portal</p>
+                    <h5>Chief Patrons</h5>
                 </div>
             </div>
-            <div class="portfolio-item mix photo">
-                <img src="~/css/photography.jpg" alt="Photography 2">
+            <div class="portfolio-item mix chief">
+                <img src="~/css/photography.jpg" alt="Chief Patrons">
                 <div class="overlay">
-                    <h5>Photography</h5>
-                    <p>Nature Shots</p>
+                    <h5>Chief Patrons</h5>
                 </div>
             </div>
-            <div class="portfolio-item mix mobile">
-                <img src="~/css/mobile.jpg" alt="Mobile Design 2">
+            <div class="portfolio-item mix chief">
+                <img src="~/css/mobile.jpg" alt="Chief Patrons">
                 <div class="overlay">
-                    <h5>Mobile Design</h5>
-                    <p>Food Delivery App</p>
+                    <h5>Chief Patrons</h5>
                 </div>
             </div>
         </div>
@@ -174,7 +170,7 @@
             </div>
 
             <div class="register-button-container">
-                <a class="register-button" href="http://icvrscet.com/new-paper-submission/">REGISTER HERE</a>
+                <a class="register-button" asp-action="New_paper_submission" asp-controller="Authors_Desk">Register</a>
             </div>
         </section>
 

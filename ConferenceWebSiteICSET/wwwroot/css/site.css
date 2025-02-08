@@ -201,7 +201,7 @@ body {
         }
 
 .scroll-icon {
-    padding-top:300px;
+    padding-top:150px;
     margin-top: 2em;
     width: 40px;
     animation: bounce 2s infinite;
@@ -759,11 +759,6 @@ body {
     }
 
 
-
-    /* Testimonials Section */
-    
-
-
     /*--CONTACT--*/
     .contact {
         padding: 5em 0;
@@ -934,7 +929,7 @@ body {
 .event-detail-container {
     display: flex;
     justify-content: center;
-    gap: 500px;
+    gap: 300px;
     flex-wrap: wrap;
 }
 
