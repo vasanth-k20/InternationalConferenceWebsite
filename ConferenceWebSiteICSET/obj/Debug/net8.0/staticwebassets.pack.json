@@ -37,8 +37,20 @@
       "PackagePath": "staticwebassets\\css\\bullet.jpg"
     },
     {
+      "Id": "C:\\Users\\office\\OneDrive\\Desktop\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\wwwroot\\css\\businesswoman.jpg",
+      "PackagePath": "staticwebassets\\css\\businesswoman.jpg"
+    },
+    {
       "Id": "C:\\Users\\office\\OneDrive\\Desktop\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\wwwroot\\css\\client.jpg",
       "PackagePath": "staticwebassets\\css\\client.jpg"
+    },
+    {
+      "Id": "C:\\Users\\office\\OneDrive\\Desktop\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\wwwroot\\css\\cont.jpg",
+      "PackagePath": "staticwebassets\\css\\cont.jpg"
+    },
+    {
+      "Id": "C:\\Users\\office\\OneDrive\\Desktop\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\wwwroot\\css\\contact.css",
+      "PackagePath": "staticwebassets\\css\\contact.css"
     },
     {
       "Id": "C:\\Users\\office\\OneDrive\\Desktop\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\wwwroot\\css\\contact.jpg",
@@ -59,6 +71,10 @@
     {
       "Id": "C:\\Users\\office\\OneDrive\\Desktop\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\wwwroot\\css\\gmail.png",
       "PackagePath": "staticwebassets\\css\\gmail.png"
+    },
+    {
+      "Id": "C:\\Users\\office\\OneDrive\\Desktop\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\wwwroot\\css\\icsetlogo.PNG",
+      "PackagePath": "staticwebassets\\css\\icsetlogo.PNG"
     },
     {
       "Id": "C:\\Users\\office\\OneDrive\\Desktop\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\wwwroot\\css\\jorunalPublish.css",
@@ -103,6 +119,10 @@
     {
       "Id": "C:\\Users\\office\\OneDrive\\Desktop\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\wwwroot\\css\\regdetials.css",
       "PackagePath": "staticwebassets\\css\\regdetials.css"
+    },
+    {
+      "Id": "C:\\Users\\office\\OneDrive\\Desktop\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\wwwroot\\css\\rope.jpg",
+      "PackagePath": "staticwebassets\\css\\rope.jpg"
     },
     {
       "Id": "C:\\Users\\office\\OneDrive\\Desktop\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\wwwroot\\css\\ser1.png",

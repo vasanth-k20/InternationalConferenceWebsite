@@ -5,12 +5,16 @@ wwwroot\css\banner.jpg
 wwwroot\css\banner2.jpg
 wwwroot\css\browser.png
 wwwroot\css\bullet.jpg
+wwwroot\css\businesswoman.jpg
 wwwroot\css\client.jpg
+wwwroot\css\cont.jpg
+wwwroot\css\contact.css
 wwwroot\css\contact.jpg
 wwwroot\css\down.png
 wwwroot\css\ediytBoard.css
 wwwroot\css\fb.png
 wwwroot\css\gmail.png
+wwwroot\css\icsetlogo.PNG
 wwwroot\css\jorunalPublish.css
 wwwroot\css\keydate.css
 wwwroot\css\logo.ico
@@ -23,6 +27,7 @@ wwwroot\css\orgainzer.css
 wwwroot\css\papersub.css
 wwwroot\css\photography.jpg
 wwwroot\css\regdetials.css
+wwwroot\css\rope.jpg
 wwwroot\css\ser1.png
 wwwroot\css\ser2.png
 wwwroot\css\ser3.png

@@ -144,6 +144,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\bullet.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\businesswoman.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ConferenceWebSiteICSET</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ConferenceWebSiteICSET</BasePath>
+      <RelativePath>css/businesswoman.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>v07u6ccl3a</Fingerprint>
+      <Integrity>8QqGvDIdO4Hw5AJqQgn4FgRr7GIorg2AOxcThMp+qzc=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\businesswoman.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\client.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>ConferenceWebSiteICSET</SourceId>
@@ -161,6 +179,42 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\client.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\cont.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ConferenceWebSiteICSET</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ConferenceWebSiteICSET</BasePath>
+      <RelativePath>css/cont.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>fzsgobeukm</Fingerprint>
+      <Integrity>u3rCK/j2Ei9uGi11tkCHrDZ9dmIwPBR801Ki8STwkyk=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\cont.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\contact.css'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ConferenceWebSiteICSET</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ConferenceWebSiteICSET</BasePath>
+      <RelativePath>css/contact.css</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>a8ama6ir3j</Fingerprint>
+      <Integrity>St8+jMglRFVIQBrNfut/CBv+Nt9Hj1W0n9Pa2I1Nd4o=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\contact.css'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\contact.jpg'))">
       <SourceType>Package</SourceType>
@@ -210,8 +264,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>tgh1yo35qf</Fingerprint>
-      <Integrity>rUBCVrDEV948wp22VGUTMIYIUAptzzP3t/GsaXcXYag=</Integrity>
+      <Fingerprint>x996708d6z</Fingerprint>
+      <Integrity>i2QEe528XBbQdf6zgXw+AhzfykHbVvYd8VjmCDpgO9o=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\ediytBoard.css'))</OriginalItemSpec>
@@ -252,6 +306,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\gmail.png'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\icsetlogo.PNG'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ConferenceWebSiteICSET</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ConferenceWebSiteICSET</BasePath>
+      <RelativePath>css/icsetlogo.PNG</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>tkmpy8lrbc</Fingerprint>
+      <Integrity>jdAWuKS0LZUiQcq/ru6Xz0gR1mKDaZ245lDzbxdvo4A=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\icsetlogo.PNG'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\jorunalPublish.css'))">
       <SourceType>Package</SourceType>
       <SourceId>ConferenceWebSiteICSET</SourceId>
@@ -264,8 +336,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>mtykkleqpz</Fingerprint>
-      <Integrity>tqq2eXME37Wg60tMCmFcPnF/KMmRPJgZymFRYaou+ko=</Integrity>
+      <Fingerprint>a0gy7wgbba</Fingerprint>
+      <Integrity>dtMuFdMDiNuFMVFuCZxJOyVZOM4+qtqx4zHzOk6Tfxc=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\jorunalPublish.css'))</OriginalItemSpec>
@@ -426,8 +498,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>k6ihltkl6l</Fingerprint>
-      <Integrity>TL/tNfQpgkMxFEPbZfbluNr3JzAMZkjTLr6+GVspWvc=</Integrity>
+      <Fingerprint>55s58x257f</Fingerprint>
+      <Integrity>uakooxrmi10rlFYyXlX0qIeWk1WoFKJk+gaauKopAjs=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\papersub.css'))</OriginalItemSpec>
@@ -462,11 +534,29 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>v30b1ecip3</Fingerprint>
-      <Integrity>tVG/owYL0T3b1NJcdEOPxCNp8/pJgP3bG3wMmbLrnjg=</Integrity>
+      <Fingerprint>0m0lv80uzo</Fingerprint>
+      <Integrity>WBWt1EpAg+5S8bNW3Tgf8ISKOS3p8ayS6HKe9oFeB6s=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\regdetials.css'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\rope.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ConferenceWebSiteICSET</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ConferenceWebSiteICSET</BasePath>
+      <RelativePath>css/rope.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>sqi8kq84gx</Fingerprint>
+      <Integrity>5MwgrEs839cT34C7xgxlus3dsHnSv2mZoda+qv7kRP8=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\rope.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\ser1.png'))">
       <SourceType>Package</SourceType>
@@ -552,8 +642,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>85stq5j0j5</Fingerprint>
-      <Integrity>vPFZKUvpN0RHspIpw4GMO3yCOHOVEcw0t9lnkhhid2k=</Integrity>
+      <Fingerprint>9gbbspgnu9</Fingerprint>
+      <Integrity>uW7qW93+1jg2VOEvG3vaLa2cX3J9S7E3DzkywIMuXck=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</OriginalItemSpec>

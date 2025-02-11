@@ -1,7 +1,9 @@
 ﻿/* Global Font */
 body {
+    margin-top: 70px;
+    background: #fff;
     font-family: 'Open Sans', sans-serif;
-    background-color: #f9f9f9; /* Light background */
+    overflow-x: hidden;
 }
 
 /* Container */
@@ -14,7 +16,7 @@ body {
 /* Section Heading */
 .section-heading h3 {
     font-size: 2rem;
-    color: #2b78e4;
+    color: #2b78e4; 
     font-weight: bold;
     text-align: center;
     margin-bottom: 30px;
@@ -62,12 +64,12 @@ body {
     overflow: hidden;
 }
 
-.bank-details td {
+.bankbank-details td {
     padding: 12px 15px;
     font-size: 1rem;
 }
 
-.detail-title {
+.bankdetail-title {
     background-color: #f9f9fc;
     color: #5a5a5a;
     text-align: right;
@@ -76,7 +78,7 @@ body {
     padding-right: 15px;
 }
 
-.detail-info {
+.bankdetail-info {
     background-color: #fff;
     color: #2b2b2b;
     text-align: left;
