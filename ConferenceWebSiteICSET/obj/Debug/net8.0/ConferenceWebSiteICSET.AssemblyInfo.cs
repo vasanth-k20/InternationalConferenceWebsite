@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ConferenceWebSiteICSET")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b36322e30803bcf569c97b7ff23deca9853f2b50")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+611bdef7f7f45d4738b01b9894012fd2684016b8")]
 [assembly: System.Reflection.AssemblyProductAttribute("ConferenceWebSiteICSET")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ConferenceWebSiteICSET")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
