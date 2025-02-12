@@ -3,16 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\office\\OneDrive\\Desktop\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E67B4BCE-ED9C-4810-843A-5FC9005C9230}|ConferenceWebSiteICSET\\ConferenceWebSiteICSET.csproj|c:\\users\\office\\onedrive\\desktop\\conferencewebsiteicset\\conferencewebsiteicset\\conferencewebsiteicset\\wwwroot\\css\\regdetials.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{E67B4BCE-ED9C-4810-843A-5FC9005C9230}|ConferenceWebSiteICSET\\ConferenceWebSiteICSET.csproj|solutionrelative:conferencewebsiteicset\\wwwroot\\css\\regdetials.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E67B4BCE-ED9C-4810-843A-5FC9005C9230}|ConferenceWebSiteICSET\\ConferenceWebSiteICSET.csproj|c:\\users\\office\\onedrive\\desktop\\conferencewebsiteicset\\conferencewebsiteicset\\conferencewebsiteicset\\views\\authors_desk\\registration_details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E67B4BCE-ED9C-4810-843A-5FC9005C9230}|ConferenceWebSiteICSET\\ConferenceWebSiteICSET.csproj|solutionrelative:conferencewebsiteicset\\views\\authors_desk\\registration_details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E67B4BCE-ED9C-4810-843A-5FC9005C9230}|ConferenceWebSiteICSET\\ConferenceWebSiteICSET.csproj|c:\\users\\office\\onedrive\\desktop\\conferencewebsiteicset\\conferencewebsiteicset\\conferencewebsiteicset\\wwwroot\\css\\keydate.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{E67B4BCE-ED9C-4810-843A-5FC9005C9230}|ConferenceWebSiteICSET\\ConferenceWebSiteICSET.csproj|solutionrelative:conferencewebsiteicset\\wwwroot\\css\\keydate.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{E67B4BCE-ED9C-4810-843A-5FC9005C9230}|ConferenceWebSiteICSET\\ConferenceWebSiteICSET.csproj|c:\\users\\office\\onedrive\\desktop\\conferencewebsiteicset\\conferencewebsiteicset\\conferencewebsiteicset\\views\\authors_desk\\new_paper_submission.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E67B4BCE-ED9C-4810-843A-5FC9005C9230}|ConferenceWebSiteICSET\\ConferenceWebSiteICSET.csproj|solutionrelative:conferencewebsiteicset\\views\\authors_desk\\new_paper_submission.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E67B4BCE-ED9C-4810-843A-5FC9005C9230}|ConferenceWebSiteICSET\\ConferenceWebSiteICSET.csproj|c:\\users\\office\\onedrive\\desktop\\conferencewebsiteicset\\conferencewebsiteicset\\conferencewebsiteicset\\views\\authors_desk\\key_date.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E67B4BCE-ED9C-4810-843A-5FC9005C9230}|ConferenceWebSiteICSET\\ConferenceWebSiteICSET.csproj|solutionrelative:conferencewebsiteicset\\views\\authors_desk\\key_date.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E67B4BCE-ED9C-4810-843A-5FC9005C9230}|ConferenceWebSiteICSET\\ConferenceWebSiteICSET.csproj|c:\\users\\office\\onedrive\\desktop\\conferencewebsiteicset\\conferencewebsiteicset\\conferencewebsiteicset\\views\\authors_desk\\journal_publication.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E67B4BCE-ED9C-4810-843A-5FC9005C9230}|ConferenceWebSiteICSET\\ConferenceWebSiteICSET.csproj|solutionrelative:conferencewebsiteicset\\views\\authors_desk\\journal_publication.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E67B4BCE-ED9C-4810-843A-5FC9005C9230}|ConferenceWebSiteICSET\\ConferenceWebSiteICSET.csproj|c:\\users\\office\\onedrive\\desktop\\conferencewebsiteicset\\conferencewebsiteicset\\conferencewebsiteicset\\views\\aboutus\\scope_of_conference.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E67B4BCE-ED9C-4810-843A-5FC9005C9230}|ConferenceWebSiteICSET\\ConferenceWebSiteICSET.csproj|solutionrelative:conferencewebsiteicset\\views\\aboutus\\scope_of_conference.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E67B4BCE-ED9C-4810-843A-5FC9005C9230}|ConferenceWebSiteICSET\\ConferenceWebSiteICSET.csproj|c:\\users\\office\\onedrive\\desktop\\conferencewebsiteicset\\conferencewebsiteicset\\conferencewebsiteicset\\views\\aboutus\\origizing_comittee.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E67B4BCE-ED9C-4810-843A-5FC9005C9230}|ConferenceWebSiteICSET\\ConferenceWebSiteICSET.csproj|solutionrelative:conferencewebsiteicset\\views\\aboutus\\origizing_comittee.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E67B4BCE-ED9C-4810-843A-5FC9005C9230}|ConferenceWebSiteICSET\\ConferenceWebSiteICSET.csproj|c:\\users\\office\\onedrive\\desktop\\conferencewebsiteicset\\conferencewebsiteicset\\conferencewebsiteicset\\views\\aboutus\\editorial_board.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E67B4BCE-ED9C-4810-843A-5FC9005C9230}|ConferenceWebSiteICSET\\ConferenceWebSiteICSET.csproj|solutionrelative:conferencewebsiteicset\\views\\aboutus\\editorial_board.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E67B4BCE-ED9C-4810-843A-5FC9005C9230}|ConferenceWebSiteICSET\\ConferenceWebSiteICSET.csproj|c:\\users\\office\\onedrive\\desktop\\conferencewebsiteicset\\conferencewebsiteicset\\conferencewebsiteicset\\views\\aboutus\\about_the_conference.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E67B4BCE-ED9C-4810-843A-5FC9005C9230}|ConferenceWebSiteICSET\\ConferenceWebSiteICSET.csproj|solutionrelative:conferencewebsiteicset\\views\\aboutus\\about_the_conference.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E67B4BCE-ED9C-4810-843A-5FC9005C9230}|ConferenceWebSiteICSET\\ConferenceWebSiteICSET.csproj|c:\\users\\office\\onedrive\\desktop\\conferencewebsiteicset\\conferencewebsiteicset\\conferencewebsiteicset\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E67B4BCE-ED9C-4810-843A-5FC9005C9230}|ConferenceWebSiteICSET\\ConferenceWebSiteICSET.csproj|solutionrelative:conferencewebsiteicset\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E67B4BCE-ED9C-4810-843A-5FC9005C9230}|ConferenceWebSiteICSET\\ConferenceWebSiteICSET.csproj|c:\\users\\office\\onedrive\\desktop\\conferencewebsiteicset\\conferencewebsiteicset\\conferencewebsiteicset\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{E67B4BCE-ED9C-4810-843A-5FC9005C9230}|ConferenceWebSiteICSET\\ConferenceWebSiteICSET.csproj|solutionrelative:conferencewebsiteicset\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,41 +70,133 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Registration_Details.cshtml",
               "DocumentMoniker": "C:\\Users\\office\\OneDrive\\Desktop\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\Views\\Authors_Desk\\Registration_Details.cshtml",
               "RelativeDocumentMoniker": "ConferenceWebSiteICSET\\Views\\Authors_Desk\\Registration_Details.cshtml",
-              "ToolTip": "C:\\Users\\office\\OneDrive\\Desktop\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\Views\\Authors_Desk\\Registration_Details.cshtml",
-              "RelativeToolTip": "ConferenceWebSiteICSET\\Views\\Authors_Desk\\Registration_Details.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEoAAAAGAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\office\\OneDrive\\Desktop\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\Views\\Authors_Desk\\Registration_Details.cshtml*",
+              "RelativeToolTip": "ConferenceWebSiteICSET\\Views\\Authors_Desk\\Registration_Details.cshtml*",
+              "ViewState": "AgIAAFIAAAAAAAAAAAA2wHMAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-11T23:08:23.61Z",
+              "WhenOpened": "2025-02-12T00:37:54.015Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "regdetials.css",
-              "DocumentMoniker": "C:\\Users\\office\\OneDrive\\Desktop\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\wwwroot\\css\\regdetials.css",
-              "RelativeDocumentMoniker": "ConferenceWebSiteICSET\\wwwroot\\css\\regdetials.css",
-              "ToolTip": "C:\\Users\\office\\OneDrive\\Desktop\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\wwwroot\\css\\regdetials.css",
-              "RelativeToolTip": "ConferenceWebSiteICSET\\wwwroot\\css\\regdetials.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-02-11T22:59:01.003Z",
+              "DocumentIndex": 1,
+              "Title": "New_paper_submission.cshtml",
+              "DocumentMoniker": "C:\\Users\\office\\OneDrive\\Desktop\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\Views\\Authors_Desk\\New_paper_submission.cshtml",
+              "RelativeDocumentMoniker": "ConferenceWebSiteICSET\\Views\\Authors_Desk\\New_paper_submission.cshtml",
+              "ToolTip": "C:\\Users\\office\\OneDrive\\Desktop\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\Views\\Authors_Desk\\New_paper_submission.cshtml*",
+              "RelativeToolTip": "ConferenceWebSiteICSET\\Views\\Authors_Desk\\New_paper_submission.cshtml*",
+              "ViewState": "AgIAAGEAAAAAAAAAAAA2wG0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-12T00:37:34.217Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "keydate.css",
-              "DocumentMoniker": "C:\\Users\\office\\OneDrive\\Desktop\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\wwwroot\\css\\keydate.css",
-              "RelativeDocumentMoniker": "ConferenceWebSiteICSET\\wwwroot\\css\\keydate.css",
-              "ToolTip": "C:\\Users\\office\\OneDrive\\Desktop\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\wwwroot\\css\\keydate.css",
-              "RelativeToolTip": "ConferenceWebSiteICSET\\wwwroot\\css\\keydate.css",
-              "ViewState": "AgIAADYAAAAAAAAAAAAAAEQAAAABAAAAAAAAAA==",
+              "Title": "Key_Date.cshtml",
+              "DocumentMoniker": "C:\\Users\\office\\OneDrive\\Desktop\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\Views\\Authors_Desk\\Key_Date.cshtml",
+              "RelativeDocumentMoniker": "ConferenceWebSiteICSET\\Views\\Authors_Desk\\Key_Date.cshtml",
+              "ToolTip": "C:\\Users\\office\\OneDrive\\Desktop\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\Views\\Authors_Desk\\Key_Date.cshtml*",
+              "RelativeToolTip": "ConferenceWebSiteICSET\\Views\\Authors_Desk\\Key_Date.cshtml*",
+              "ViewState": "AgIAADkAAAAAAAAAAAA2wFQAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-12T00:37:25.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Journal_Publication.cshtml",
+              "DocumentMoniker": "C:\\Users\\office\\OneDrive\\Desktop\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\Views\\Authors_Desk\\Journal_Publication.cshtml",
+              "RelativeDocumentMoniker": "ConferenceWebSiteICSET\\Views\\Authors_Desk\\Journal_Publication.cshtml",
+              "ToolTip": "C:\\Users\\office\\OneDrive\\Desktop\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\Views\\Authors_Desk\\Journal_Publication.cshtml*",
+              "RelativeToolTip": "ConferenceWebSiteICSET\\Views\\Authors_Desk\\Journal_Publication.cshtml*",
+              "ViewState": "AgIAAB8AAAAAAAAAAAA2wEAAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-12T00:37:14.384Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Scope_of_conference.cshtml",
+              "DocumentMoniker": "C:\\Users\\office\\OneDrive\\Desktop\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\Views\\AboutUs\\Scope_of_conference.cshtml",
+              "RelativeDocumentMoniker": "ConferenceWebSiteICSET\\Views\\AboutUs\\Scope_of_conference.cshtml",
+              "ToolTip": "C:\\Users\\office\\OneDrive\\Desktop\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\Views\\AboutUs\\Scope_of_conference.cshtml*",
+              "RelativeToolTip": "ConferenceWebSiteICSET\\Views\\AboutUs\\Scope_of_conference.cshtml*",
+              "ViewState": "AgIAAD8AAAAAAAAAAAA4wGAAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-12T00:37:04.472Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Origizing_Comittee.cshtml",
+              "DocumentMoniker": "C:\\Users\\office\\OneDrive\\Desktop\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\Views\\AboutUs\\Origizing_Comittee.cshtml",
+              "RelativeDocumentMoniker": "ConferenceWebSiteICSET\\Views\\AboutUs\\Origizing_Comittee.cshtml",
+              "ToolTip": "C:\\Users\\office\\OneDrive\\Desktop\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\Views\\AboutUs\\Origizing_Comittee.cshtml*",
+              "RelativeToolTip": "ConferenceWebSiteICSET\\Views\\AboutUs\\Origizing_Comittee.cshtml*",
+              "ViewState": "AgIAAFcAAAAAAAAAAAA2wHgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-12T00:36:55.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Editorial_Board.cshtml",
+              "DocumentMoniker": "C:\\Users\\office\\OneDrive\\Desktop\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\Views\\AboutUs\\Editorial_Board.cshtml",
+              "RelativeDocumentMoniker": "ConferenceWebSiteICSET\\Views\\AboutUs\\Editorial_Board.cshtml",
+              "ToolTip": "C:\\Users\\office\\OneDrive\\Desktop\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\Views\\AboutUs\\Editorial_Board.cshtml*",
+              "RelativeToolTip": "ConferenceWebSiteICSET\\Views\\AboutUs\\Editorial_Board.cshtml*",
+              "ViewState": "AgIAAEkAAAAAAAAAAAA2wGoAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-12T00:36:42.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "About_the_Conference.cshtml",
+              "DocumentMoniker": "C:\\Users\\office\\OneDrive\\Desktop\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\Views\\AboutUs\\About_the_Conference.cshtml",
+              "RelativeDocumentMoniker": "ConferenceWebSiteICSET\\Views\\AboutUs\\About_the_Conference.cshtml",
+              "ToolTip": "C:\\Users\\office\\OneDrive\\Desktop\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\Views\\AboutUs\\About_the_Conference.cshtml*",
+              "RelativeToolTip": "ConferenceWebSiteICSET\\Views\\AboutUs\\About_the_Conference.cshtml*",
+              "ViewState": "AgIAAEQAAAAAAAAAAAA4wGUAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-12T00:36:29.153Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\office\\OneDrive\\Desktop\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "ConferenceWebSiteICSET\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\office\\OneDrive\\Desktop\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "ConferenceWebSiteICSET\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAAAK8AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-12T00:05:31.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\office\\OneDrive\\Desktop\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "ConferenceWebSiteICSET\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\office\\OneDrive\\Desktop\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "ConferenceWebSiteICSET\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAHIDAAAAAAAAAAAAAH4DAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-02-11T22:58:52.901Z"
+              "WhenOpened": "2025-02-12T00:05:25.167Z",
+              "EditorCaption": ""
             }
           ]
         }

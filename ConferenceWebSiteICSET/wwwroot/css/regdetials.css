@@ -10,6 +10,7 @@
         font-size: 2.2rem;
         color: #2b78e4;
         font-weight: bold;
+        text-align:start;
         text-transform: uppercase;
         margin-bottom: 30px;
         letter-spacing: 1px;
@@ -29,7 +30,7 @@
     border-radius: 10px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     text-align: left;
     font-weight: bold;
     line-height: 1.5;

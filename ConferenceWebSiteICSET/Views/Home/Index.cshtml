@@ -13,7 +13,7 @@
             </h4>
             <!-- Register Button -->
             <div class="register">
-                <button class="headregister" asp-action="New_paper_submission" asp-controller="Authors_Desk">Register</button>
+                <a class="headregister" asp-action="New_paper_submission" asp-controller="Authors_Desk">Register</a>
             </div>
             <a href="#about" class="scroll">
                 <img src="/css/down.png" class="scroll-icon" alt="Scroll Down" />
@@ -45,7 +45,11 @@
 
 <!--keydates-->
 <div class="key-dates-container">
-    <h3 class="key-dates-title">KEY DATES</h3>
+
+    <div class="keyheading">
+        <h3>TAKE A LOOK AT OUR <span>KEY DATES</span> </h3>
+    </div>
+    
     <div class="key-dates-grid">
         <div class="key-date-item">
             <div class="icon"><i class="fa fa-calendar-o"></i></div>
@@ -136,15 +140,10 @@
 
 
 
-<!--contact-->
-<section class="contact" id="contact">
-    <div class="contact-container">
+<!--avenue-->
+<section class="avenue" id="avenue">
+    <div class="avenue-container">
 
-        <!-- Contact Header -->
-        <div class="contact-header">
-            <h3>Feel Free to <span>Contact Us</span></h3>
-            <p>We are here to assist you with any queries. Reach out to us anytime!</p>
-        </div>
 
         <!-- Where and When Section -->
         <div class="event-details">
@@ -177,15 +176,20 @@
             <a class="register-button" asp-action="New_paper_submission" asp-controller="Authors_Desk">Register</a>
         </div>
 
-        <!-- Contact Details Section -->
-        <div class="contact-details">
-            <h2>For any inquiries</h2>
-            <h4>CONTACT</h4>
-            <p><i class="fas fa-envelope"></i> Email: support@company.com</p>
-            <p><i class="fas fa-phone"></i> Phone: +1 123-456-7890</p>
-            <p><i class="fas fa-map"></i> Address: 123 Street, City, Country</p>
-        </div>
+    </div>
+</section>
 
+
+
+
+<!-- Contact Details Section -->
+<section class="contact">
+    <div class="contact-details">
+        <h3>For any <span>inquiries</span></h3>
+        <h4>CONTACT</h4>
+        <p><i class="fas fa-envelope"></i> Email: support@company.com</p>
+        <p><i class="fas fa-phone"></i> Phone: +1 123-456-7890</p>
+        <p><i class="fas fa-map"></i> Address: 123 Street, City, Country</p>
     </div>
 </section>
 

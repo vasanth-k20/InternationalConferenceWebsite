@@ -30,7 +30,7 @@ body {
 
 /* Header Section */
 .header {
-    background: url('contact.jpg') no-repeat center center/cover;
+    background: url('home.jpg') no-repeat center center/cover;
     width: 100%;
     height: 100vh;
     display: flex;
@@ -324,7 +324,7 @@ body {
     background-color: #F7F7F7;
 }
 .about {
-    padding: 5em 0 5em;
+    padding: 5em 0 4em;
     display: flex;
 }
 
@@ -486,12 +486,19 @@ body {
     text-align: center;
 }
 
-.key-dates-title {
-    font-size: 2.5em;
-    font-weight: 700;
-    text-transform: uppercase;
-    margin-bottom: 40px;
-}
+    .keyheading h3 {
+        font-size: 2.5em;
+        font-weight: 400;
+        text-transform: uppercase;
+        color: #000;
+        margin-bottom: 40px;
+    }
+
+    .keyheading span {
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #fcac45;
+    }
 
 .key-dates-grid {
     display: grid;
@@ -784,29 +791,11 @@ body {
     }
 
 
-/* Contact Section */
-.contact {
-    padding-bottom:3em;
+/* avenue Section */
+.avenue {
+    padding-bottom: 3em;
     background-color: #F7F7F7;
     text-align: center;
-}
-
-.contact-header h3 {
-    font-size: 2.5em;
-    font-weight: 400;
-    text-transform: uppercase;
-    margin-bottom: 10px;
-}
-
-    .contact-header h3 span {
-        font-weight: 700;
-        color: #fcac45;
-    }
-
-.contact-header p {
-    font-size: 1.2em;
-    color: #666;
-    margin-bottom: 30px;
 }
 
 /* Event Details (Top Section) */
@@ -815,73 +804,40 @@ body {
     justify-content:center;
     gap: 150px;
     flex-wrap: wrap;
-    margin-bottom: 30px;
+    margin-bottom: 0px;
     text-align:center;
 }
 
 .event-detail-box {
-    background: #fff;
     padding: 20px 30px;
-    border-radius: 12px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     text-align: center;
-    max-width: 400px;
+    max-width: 500px;
     width: 100%;
 }
 
     .event-detail-box .icon {
-        font-size: 36px;
+        font-size: 45px;
         color: #fcac45;
         margin-bottom: 10px;
     }
 
     .event-detail-box .detail-title {
-        font-size: 20px;
+        font-size: 30px;
         font-weight: bold;
         color: #333;
         margin-bottom: 10px;
     }
 
     .event-detail-box .detail-info {
-        font-size: 16px;
-        color: #555;
-        line-height: 1.6;
-    }
-
-/* Contact Details (Bottom Section) */
-.contact-details {
-    background: #fff;
-    padding: 20px 30px;
-    border-radius: 12px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    max-width: 500px;
-    width: 100%;
-    margin: 0 auto 30px;
-}
-
-    .contact-details h4 {
-        padding:0.5em;
         font-size: 20px;
-        font-weight: bold;
-        margin-bottom: 15px;
-    }
-
-    .contact-details p {
-        font-size: 16px;
-        color: #555;
-        margin: 8px 0;
-    }
-
-    .contact-details i {
-        color: #fcac45;
-        margin-right: 8px;
+        color: #333;
+        line-height: 1.6;
     }
 
 /* Register Button */
 .register-button-container {
-    padding-top: 10px;
-    padding-bottom: 40px;
+    padding-top: 0px;
+    padding-bottom: 30px;
 }
 
 .register-button {
@@ -903,6 +859,58 @@ body {
     }
 
 
+
+/* Contact Details (Bottom Section) */
+.contact {
+    padding-bottom: 3em;
+    background-color: #F7F7F7;
+    text-align: center;
+}
+
+.contact-details {
+    padding: 0px 30px;
+    text-align: center;
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto 30px;
+}
+
+    .contact-details h4 {
+        padding-bottom: 0.5em;
+        font-size: 1.7rem;
+        font-weight: 400;
+        margin-bottom: 15px;
+        letter-spacing:2px;
+    }
+
+    .contact-details h3 {
+        font-size: 2.5em;
+        font-weight: 400;
+        text-transform: uppercase;
+        color: #000;
+        margin-bottom: 30px;
+    }
+
+        .contact-details h3 span {
+            color: #fcac45;
+            text-transform: uppercase;
+            font-weight: 700;
+        }
+
+        .contact-details p {
+            font-size: 20px;
+            color: #555;
+            margin: 8px 0;
+        }
+
+    .contact-details i {
+        color: #fcac45;
+        margin-right: 8px;
+    }
+
+
+
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .event-details {
@@ -922,13 +930,6 @@ body {
 }
 
 @media (max-width: 480px) {
-    .contact-header h3 {
-        font-size: 1.8em;
-    }
-
-    .contact-header p {
-        font-size: 1em;
-    }
 
     .event-detail-box {
         padding: 15px 20px;
