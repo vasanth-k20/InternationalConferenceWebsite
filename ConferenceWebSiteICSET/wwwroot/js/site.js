@@ -5,12 +5,16 @@
 
 
 //togglefunction(navbar)
-document.addEventListener("DOMContentLoaded", function () {
-    const menuToggle = document.querySelector(".menu-toggle");
-    const navLinks = document.querySelector(".nav-links");
+const menuToggle = document.querySelector('.menu-toggle');
+const navMenu = document.querySelector('.top-nav ul');
+const dropdownMenus = document.querySelectorAll('.dropdown-menu');
 
-    menuToggle.addEventListener("click", function () {
-        navLinks.classList.toggle("active");
+menuToggle.addEventListener('click', () => {
+    navMenu.classList.toggle('active');
+
+    // Ensure dropdown menus don't overflow when toggled
+    dropdownMenus.forEach(menu => {
+        menu.style.position = navMenu.classList.contains('active') ? 'relative' : 'absolute';
     });
 });
 

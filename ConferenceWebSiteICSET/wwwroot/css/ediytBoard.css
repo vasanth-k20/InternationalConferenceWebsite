@@ -1,8 +1,9 @@
 ﻿/* Container styling */
 .committee-container {
     padding: 50px 20px;
-    background-color:white;
+    background-color: white;
     font-family: 'Open Sans', sans-serif;
+    background-color: #F7F7F7;
 }
 
 /* Section header */

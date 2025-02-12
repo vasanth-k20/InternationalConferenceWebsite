@@ -1,4 +1,7 @@
-﻿
+﻿body {
+    background-color: #F7F7F7;
+}
+
 /* Container */
 .container {
     max-width: 800px;

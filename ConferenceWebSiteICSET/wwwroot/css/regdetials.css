@@ -1,4 +1,9 @@
-﻿/* Registration Section */
+﻿body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #F7F7F7;
+}
+
+/* Registration Section */
 .payment-instructions-container {
     max-width: 800px;
     margin: 50px auto;
