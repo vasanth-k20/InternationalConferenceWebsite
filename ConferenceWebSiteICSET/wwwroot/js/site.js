@@ -44,6 +44,28 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 
+function validateForm() {
+    let isValid = true;
+
+    const fields = ["FirstName", "LastName", "Email", "PhoneNumber"];
+
+    fields.forEach(field => {
+        const input = document.getElementById(field);
+        const errorSpan = document.getElementById(field + "Error");
+
+        if (!input.value.trim()) {
+            input.classList.add("error");
+            errorSpan.textContent = `${field.replace(/([A-Z])/g, ' $1')} is required.`;
+            isValid = false;
+        } else {
+            input.classList.remove("error");
+            errorSpan.textContent = "";
+        }
+    });
+
+    return isValid;
+}
+
 
 // Scroll-to-Top Functionality
 document.addEventListener("DOMContentLoaded", function () {

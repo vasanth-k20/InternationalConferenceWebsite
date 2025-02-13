@@ -13,9 +13,9 @@
     /* Section Heading */
     .payment-instructions-container .section-heading h3 {
         font-size: 2.2rem;
+        text-align: start;
         color: #2b78e4;
         font-weight: bold;
-        text-align:start;
         text-transform: uppercase;
         margin-bottom: 30px;
         letter-spacing: 1px;
@@ -27,6 +27,7 @@
     flex-direction: column;
     gap: 15px;
     margin-bottom: 30px;
+    padding-bottom:30px;
 }
 
 /* Instruction Item */
@@ -79,19 +80,68 @@
     color: #2b78e4;
 }
 
+.bankdetail-title td {
+    max-width:100px;
+}
+
 /* Bank Detail Info */
 .bankdetail-info {
     color: #5a5a5a;
 }
 
-/* Responsive Design */
+/* Responsive Design*/
 @media (max-width: 768px) {
-    .instructions-list .instruction-item {
-        text-align: center;
-        font-size: 1rem;
+    .payment-instructions-container .section-heading h3 {
+        text-align: start;
+        font-size: 1.8rem;
     }
 
+    .instructions-list {
+        gap: 15px; 
+    }
+
+        .instructions-list .instruction-item {
+            font-size: 1rem;
+            padding: 15px 20px; 
+        }
+
+    /* Bank Details Table */
     .bank-details table {
         font-size: 1rem;
+        padding: 10px; 
+    }
+
+    .bank-details td {
+        padding: 10px 12px; 
+    }
+}
+
+/* Responsive Design for Small-Sized Devices (Mobile) */
+@media (max-width: 480px) {
+    .payment-instructions-container .section-heading h3 {
+        font-size: 1.5rem;
+    }
+
+    /* Adjust instruction item padding and text alignment */
+    .instructions-list .instruction-item {
+        text-align: center;
+        padding: 12px 18px; 
+        font-size: 0.9rem;
+    }
+
+    /* Bank Details Table Adjustments */
+    .bank-details table {
+        font-size: 0.9rem;
+        padding: 8px; 
+    }
+
+    .bank-details td {
+        padding: 8px 10px;
+    }
+
+    .bankdetail-title td,
+    .bankdetail-info td {
+        word-wrap: break-word;
+        padding: 5px; 
     }
 }

@@ -1,5 +1,12 @@
 ﻿@model ContactForm
 
+
+<!--Showing the Validation Error Message-->
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
+
+
 @{
     var message = TempData["Message"] as string;
     var messageType = TempData["MessageType"] as string;
@@ -62,7 +69,7 @@
                             <!-- Submit Button -->
                             <div class="col-12 text-start">
                                 <div class=" mt-4">
-                                    <button asp-controller="ContactForm" asp-action="ContactForm1" class="btn btn-primary fs-5 px-4 py-2 fw-bold">Send Message</button>
+                                    <button asp-controller="ContactForm" asp-action="ContactForm1" class="consub">Send Message</button>
                                 </div>
                             </div>
                         </div>
@@ -73,15 +80,15 @@
             <div class="col-12 col-md-4">
                 <div class="contact-information">
                     <div class="mb-3">
-                        <h4 class="mb-1 text-primary fs-5 fw-bold">Address:</h4>
+                        <h4 id="conh" class="mb-1 fs-5 fw-bold">Address:</h4>
                         <p class="fs-4">184 Main Collins Street</p>
                     </div>
                     <div class="mb-3">
-                        <h4 class="mb-1 text-primary fs-5 fw-bold">Phone:</h4>
+                        <h4 id="conh" class="mb-1 fs-5 fw-bold">Phone:</h4>
                         <p class="fs-4">(226) 446 9371</p>
                     </div>
                     <div class="mb-3">
-                        <h4 class="mb-1 text-primary fs-5 fw-bold">Email:</h4>
+                        <h4 id="conh" class="mb-1 fs-5 fw-bold">Email:</h4>
                         <p class="fs-4">confer@gmail.com</p>
                     </div>
 

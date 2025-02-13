@@ -20,6 +20,12 @@
     letter-spacing: 1px;
 }
 
+.error {
+    color: red;
+    font-size:1.5rem;
+    font-style:italic;
+}
+
 /* Card Design */
 .form-container {
     display: flex;

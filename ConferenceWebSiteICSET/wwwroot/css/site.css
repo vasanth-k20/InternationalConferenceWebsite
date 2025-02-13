@@ -23,7 +23,6 @@ html, body {
 
 body {
     margin-top: 70px;
-    background: #fff;
     font-family: 'Open Sans', sans-serif;
     overflow-x: hidden;
 }
@@ -921,6 +920,36 @@ a.browse {
     }
 
 /* Responsive Design */
+@media (max-width: 1440px) {
+    .event-details {
+        gap: 20px;
+    }
+
+    .contact-details {
+        margin: 20px auto;
+    }
+
+    .register-button-container {
+        padding-top: 1em;
+    }
+}
+
+@media (max-width: 1024px) {
+    .event-details {
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .contact-details {
+        margin: 20px auto;
+    }
+
+    .register-button-container {
+        padding-top: 1em;
+    }
+}
+
 @media (max-width: 768px) {
     .event-details {
         align-items: center;
