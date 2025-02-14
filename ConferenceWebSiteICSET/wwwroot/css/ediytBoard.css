@@ -8,8 +8,8 @@
 
 /* Section header */
 .committee-header {
-    padding-left:32.8em;
     margin-bottom: 40px;
+    text-align:center;
 }
 
     .committee-header h3 {
@@ -121,7 +121,6 @@
 
         .committee-header h3 {
             font-size: 1.8rem;
-            margin-bottom: 20px;
         }
 
         .committee-row {

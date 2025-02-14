@@ -14,7 +14,7 @@ body {
 /* Heading */
 .important-dates-heading {
     font-size: 2.2rem;
-    text-align:start;
+    text-align:center;
     color: #2b78e4;
     font-weight: bold;
     text-transform: uppercase;
@@ -100,7 +100,7 @@ body {
 
     .important-dates-heading {
         font-size: 1.8rem; 
-        text-align: start; 
+        text-align: center; 
     }
 
     .important-date-row {

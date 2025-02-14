@@ -18,8 +18,7 @@ namespace ConferenceWebSiteICSET
                 // Admin receives the email
                 newMail.To.Add("vasanthkbit@gmail.com");
 
-                // "Reply-To" ensures the admin can reply directly to the user's email
-                newMail.ReplyToList.Add(new MailAddress(authoremail));
+                
 
                 newMail.Subject = $"Paper Submission - {papertitle}";
                 newMail.IsBodyHtml = true;

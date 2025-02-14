@@ -13,11 +13,11 @@
     /* Section Heading */
     .payment-instructions-container .section-heading h3 {
         font-size: 2.2rem;
-        text-align: start;
+        text-align: center;
         color: #2b78e4;
         font-weight: bold;
         text-transform: uppercase;
-        margin-bottom: 30px;
+        margin-bottom: 15px;
         letter-spacing: 1px;
     }
 
@@ -78,6 +78,7 @@
 .bankdetail-title {
     font-weight: bold;
     color: #2b78e4;
+    width:185px;
 }
 
 .bankdetail-title td {
@@ -91,8 +92,12 @@
 
 /* Responsive Design*/
 @media (max-width: 768px) {
+    .payment-instructions-container {
+        margin: 40px 10px;
+    }
+
     .payment-instructions-container .section-heading h3 {
-        text-align: start;
+        text-align: center;
         font-size: 1.8rem;
     }
 

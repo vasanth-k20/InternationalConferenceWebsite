@@ -5,18 +5,61 @@
 
 
 //togglefunction(navbar)
-const menuToggle = document.querySelector('.menu-toggle');
-const navMenu = document.querySelector('.top-nav ul');
-const dropdownMenus = document.querySelectorAll('.dropdown-menu');
+document.addEventListener('DOMContentLoaded', () => {
+    // Handle dropdown toggle for normal and responsive navigation
+    const dropdowns = document.querySelectorAll('.nav-links .dropdown');
 
-menuToggle.addEventListener('click', () => {
-    navMenu.classList.toggle('active');
+    dropdowns.forEach((dropdown) => {
+        const toggle = dropdown.querySelector('a'); // Assuming the dropdown's anchor is the toggle
+        toggle.addEventListener('click', (e) => {
+            e.preventDefault(); // Prevent link navigation
+            const isActive = dropdown.classList.contains('active');
+            document.querySelectorAll('.nav-links .dropdown.active').forEach((activeDropdown) => {
+                activeDropdown.classList.remove('active'); // Close other open dropdowns
+            });
+            if (!isActive) {
+                dropdown.classList.add('active'); // Open current dropdown
+            }
+        });
+    });
 
-    // Ensure dropdown menus don't overflow when toggled
-    dropdownMenus.forEach(menu => {
-        menu.style.position = navMenu.classList.contains('active') ? 'relative' : 'absolute';
+    // Close dropdown if clicked outside
+    document.addEventListener('click', (e) => {
+        if (!e.target.closest('.dropdown')) {
+            document.querySelectorAll('.nav-links .dropdown.active').forEach((activeDropdown) => {
+                activeDropdown.classList.remove('active');
+            });
+        }
+    });
+
+    // Handle menu toggle for responsive design
+    const menuToggle = document.querySelector('.menu-toggle');
+    const navMenu = document.querySelector('.top-nav ul');
+
+    if (menuToggle && navMenu) {
+        menuToggle.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+        });
+    }
+
+    // Handle active link for the current page
+    const navLinks = document.querySelectorAll(".top-nav ul li a");
+
+    navLinks.forEach((link) => {
+        if (link.href === window.location.href) {
+            link.classList.add("active");
+
+            // Check if the active link is inside a dropdown
+            const parentDropdown = link.closest('.dropdown');
+            if (parentDropdown) {
+                const parentToggle = parentDropdown.querySelector('a');
+                parentToggle.classList.add("active"); // Add active class to parent heading
+            }
+        }
     });
 });
+
+
 
 
 

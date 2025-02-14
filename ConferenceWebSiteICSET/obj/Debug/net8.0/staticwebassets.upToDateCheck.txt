@@ -1,13 +1,10 @@
-wwwroot\css\banner.jpg
 wwwroot\css\banner2.jpg
 wwwroot\css\browser.png
-wwwroot\css\businesswoman.jpg
 wwwroot\css\chief1.jpg
 wwwroot\css\chief2.jpg
 wwwroot\css\chief3.jpg
 wwwroot\css\chief4.jpg
 wwwroot\css\contact.css
-wwwroot\css\contact.jpg
 wwwroot\css\down.png
 wwwroot\css\ediytBoard.css
 wwwroot\css\fb.png
@@ -26,11 +23,9 @@ wwwroot\css\ser2.png
 wwwroot\css\ser3.png
 wwwroot\css\ser4.png
 wwwroot\css\site.css
-wwwroot\css\testimonals.jpg
 wwwroot\css\tv.png
 wwwroot\css\up.png
 wwwroot\css\x.png
-wwwroot\css\yellow.jpg
 wwwroot\favicon.ico
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
