@@ -1,6 +1,6 @@
 ﻿/* Container styling */
 .committee-container {
-    padding: 50px 20px;
+    padding: 40px 20px;
     background-color: white;
     font-family: 'Open Sans', sans-serif;
     background-color: #F7F7F7;
@@ -8,7 +8,7 @@
 
 /* Section header */
 .committee-header {
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     text-align:center;
 }
 
@@ -56,13 +56,13 @@
     .committee-card strong {
         font-size: 1.5em;
         font-weight: 700;
-        color: #333;
+        color: black;
     }
 
     .committee-card span {
         font-size: 1em;
         font-weight: 500;
-        color: #555;
+        color: black;
         display: block;
         margin-top: 10px;
     }
@@ -70,7 +70,7 @@
     .committee-card em {
         font-size: 1em;
         font-style: italic;
-        color: #444;
+        color: black;
         display: block;
         margin-top: 5px;
     }

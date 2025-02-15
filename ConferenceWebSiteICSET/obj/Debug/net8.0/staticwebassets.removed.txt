@@ -1,5 +1,1 @@
-C:\Users\office\OneDrive\Desktop\ConferenceWebSiteICSET\ConferenceWebSiteICSET\ConferenceWebSiteICSET\wwwroot\css\banner.jpg
-C:\Users\office\OneDrive\Desktop\ConferenceWebSiteICSET\ConferenceWebSiteICSET\ConferenceWebSiteICSET\wwwroot\css\businesswoman.jpg
-C:\Users\office\OneDrive\Desktop\ConferenceWebSiteICSET\ConferenceWebSiteICSET\ConferenceWebSiteICSET\wwwroot\css\contact.jpg
-C:\Users\office\OneDrive\Desktop\ConferenceWebSiteICSET\ConferenceWebSiteICSET\ConferenceWebSiteICSET\wwwroot\css\testimonals.jpg
-C:\Users\office\OneDrive\Desktop\ConferenceWebSiteICSET\ConferenceWebSiteICSET\ConferenceWebSiteICSET\wwwroot\css\yellow.jpg
+C:\Users\office\OneDrive\Desktop\ConferenceWebSiteICSET\ConferenceWebSiteICSET\ConferenceWebSiteICSET\wwwroot\img\banner2.jpg

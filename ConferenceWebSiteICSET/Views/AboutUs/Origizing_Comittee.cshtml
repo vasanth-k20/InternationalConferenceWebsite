@@ -5,7 +5,7 @@
 <link href="~/css/orgainzer.css" rel="stylesheet" />
 
 <!-- Background Image Section -->
-<div id="intro-example" class="img-fluid" style="height: 30vh; width: 100%; background-image: url('/css/banner2.jpg'); background-size: cover; background-position: center;">
+<div id="intro-example" class="img-fluid" style="height: 30vh; width: 100%; background-image: url('/img/banner.jpg'); background-size: cover; background-position: center;">
     <div class="mask w-100 h-100 bg-dark bg-opacity-50 d-flex flex-column justify-content-center align-items-center">
         <div class="text-white text-center px-3">
             <h2 class="fw-bold display-5 text-uppercase text-light">Origizing Comittee</h2>
@@ -15,7 +15,8 @@
 </div>
 
 
-<div class="committee-section">
+<!-- organize commite member Section -->
+<section class="committee-section">
     <!-- Chairman -->
     <div class="committee-block">
         <h4 class="committee-title">Chairman</h4>
@@ -78,10 +79,10 @@
             </ul>
         </div>
     </div>
-</div>
+</section>
 
 
-<!--avenue-->
+<!--avenue & contact-->
 <section class="avenue" id="avenue">
     <div class="avenue-container">
 
@@ -109,6 +110,12 @@
                     26<sup>th</sup> April, 2024<br>
                     (Friday)
                 </p>
+
+                <!-- Register Button -->
+                <div class="register-button-container">
+                    <a class="register-button" asp-action="New_paper_submission" asp-controller="Authors_Desk">Register</a>
+                </div>
+
             </div>
 
             <!-- Contact Details Section -->
@@ -122,11 +129,6 @@
                 </div>
             </div>
 
-        </div>
-
-        <!-- Register Button -->
-        <div class="register-button-container">
-            <a class="register-button" asp-action="New_paper_submission" asp-controller="Authors_Desk">Register</a>
         </div>
 
     </div>

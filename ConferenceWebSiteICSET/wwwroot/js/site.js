@@ -10,9 +10,10 @@ document.addEventListener('DOMContentLoaded', () => {
     const dropdowns = document.querySelectorAll('.nav-links .dropdown');
 
     dropdowns.forEach((dropdown) => {
-        const toggle = dropdown.querySelector('a'); // Assuming the dropdown's anchor is the toggle
+        const toggle = dropdown.querySelector('a'); // Dropdown toggle
         toggle.addEventListener('click', (e) => {
-            e.preventDefault(); // Prevent link navigation
+            e.preventDefault();
+            e.stopPropagation();
             const isActive = dropdown.classList.contains('active');
             document.querySelectorAll('.nav-links .dropdown.active').forEach((activeDropdown) => {
                 activeDropdown.classList.remove('active'); // Close other open dropdowns
@@ -42,24 +43,31 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // Handle active link for the current page
-    const navLinks = document.querySelectorAll(".top-nav ul li a");
+    // Cleanup when resizing the window
+    window.addEventListener('resize', () => {
+        if (window.innerWidth > 768) {
+            navMenu.classList.remove('active');
+            document.querySelectorAll('.nav-links .dropdown.active').forEach((dropdown) => {
+                dropdown.classList.remove('active');
+            });
+        }
+    });
+
+    // Highlight active link
+    const navLinks = document.querySelectorAll('.top-nav ul li a');
 
     navLinks.forEach((link) => {
         if (link.href === window.location.href) {
-            link.classList.add("active");
+            link.classList.add('active');
 
             // Check if the active link is inside a dropdown
             const parentDropdown = link.closest('.dropdown');
             if (parentDropdown) {
-                const parentToggle = parentDropdown.querySelector('a');
-                parentToggle.classList.add("active"); // Add active class to parent heading
+                parentDropdown.querySelector('a').classList.add('active');
             }
         }
     });
 });
-
-
 
 
 
