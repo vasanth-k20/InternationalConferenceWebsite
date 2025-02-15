@@ -27,22 +27,27 @@
                 <ul class="nav-links">
                     <li class="active"><a asp-action="Index" asp-controller="Home">Home</a></li>
                     <li class="dropdown">
-                        <a href="#about">About Us <i class="fas fa-chevron-down dropdown-icon"></i></a>
-                        <ul class="dropdown-menu">
-                            <li><a asp-action="About_the_Conference" asp-controller="AboutUs">About the Conference</a></li>
-                            <li><a asp-action="Scope_of_conference" asp-controller="AboutUs">Scope of conference</a></li>
-                            <li><a asp-action="Origizing_Comittee" asp-controller="AboutUs">Origizing Comittee</a></li>
-                            <li><a asp-action="Editorial_Board" asp-controller="AboutUs">Editorial Board</a></li>
-                        </ul>
+                        <div>
+                            <a href="#about">About Us <i class="fas fa-chevron-down dropdown-icon"></i></a>
+                            <div>
+                                <div class="dropdown-menu">
+                                    <div><a asp-action="About_the_Conference" asp-controller="AboutUs">About the Conference</a></div>
+                                    <div><a asp-action="Scope_of_conference" asp-controller="AboutUs">Scope of conference</a></div>
+                                    <div><a asp-action="Origizing_Comittee" asp-controller="AboutUs">Origizing Comittee</a></div>
+                                    <div><a asp-action="Editorial_Board" asp-controller="AboutUs">Editorial Board</a></div>
+                                </div>
+                            </div>
+                        </div>
+                        
                     </li>
                     <li class="dropdown">
                         <a href="#author's">Author's Desk <i class="fas fa-chevron-down dropdown-icon"></i></a>
-                        <ul class="dropdown-menu">
-                            <li><a asp-action="Journal_Publication" asp-controller="Authors_Desk">Journal Publication</a></li>
-                            <li><a asp-action="Key_Date" asp-controller="Authors_Desk">Key Date</a></li>
-                            <li><a asp-action="Registration_Details" asp-controller="Authors_Desk">Registration Details</a></li>
-                            <li><a asp-action="New_paper_submission" asp-controller="Authors_Desk">New paper submission</a></li>
-                        </ul>
+                        <div class="dropdown-menu">
+                            <div><a asp-action="Journal_Publication" asp-controller="Authors_Desk">Journal Publication</a></div>
+                            <div><a asp-action="Key_Date" asp-controller="Authors_Desk">Key Date</a></div>
+                            <div><a asp-action="Registration_Details" asp-controller="Authors_Desk">Registration Details</a></div>
+                            <div><a asp-action="New_paper_submission" asp-controller="Authors_Desk">New paper submission</a></div>
+                        </div>
                     </li>
                     <li class="active"><a asp-action="Contact" asp-controller="Home">Contact</a></li>
                 </ul>
