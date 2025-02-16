@@ -7,7 +7,7 @@ body {
 /* Container */
 .important-dates-container {
     max-width: 800px;
-    margin: 50px auto;
+    margin: 40px auto;
     text-align: center;
 }
 
@@ -95,7 +95,7 @@ body {
 @media (max-width: 768px) {
     .important-dates-container {
         max-width: 100%; 
-        padding: 10px 15px;
+        padding: 0px 15px;
     }
 
     .important-dates-heading {
@@ -125,7 +125,7 @@ body {
 /* For devices smaller than 480px (e.g., phones) */
 @media (max-width: 480px) {
     .important-dates-heading {
-        font-size: 1.5rem; 
+        font-size: 1.6rem; 
         margin-bottom: 20px;
     }
 

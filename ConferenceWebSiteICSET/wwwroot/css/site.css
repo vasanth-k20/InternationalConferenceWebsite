@@ -297,12 +297,6 @@ body {
     }
 }
 
-@media (max-height: 500px) {
-    .header {
-        height: 80vh;
-    }
-}
-
 @media (max-width: 480px) {
     .header {
         min-height: 500px;

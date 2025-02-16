@@ -1,3 +1,4 @@
+wwwroot\css\about.css
 wwwroot\css\contact.css
 wwwroot\css\ediytBoard.css
 wwwroot\css\jorunalPublish.css
@@ -5,6 +6,7 @@ wwwroot\css\keydate.css
 wwwroot\css\orgainzer.css
 wwwroot\css\papersub.css
 wwwroot\css\regdetials.css
+wwwroot\css\scope.css
 wwwroot\css\site.css
 wwwroot\favicon.ico
 wwwroot\img\about.jpg

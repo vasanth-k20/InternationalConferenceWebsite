@@ -5,8 +5,7 @@
 /* Container */
 .container {
     max-width: 800px;
-    margin: 0 auto;
-    padding-top: 20px;
+    margin: 40px auto;
 }
 
 /* Heading */
@@ -113,4 +112,11 @@ form {
         font-size: 1rem;
         padding: 10px 16px;
     }
+}
+
+@media (max-width: 480px) {
+    .form-heading{
+        font-size:1.6rem;
+    }
+
 }

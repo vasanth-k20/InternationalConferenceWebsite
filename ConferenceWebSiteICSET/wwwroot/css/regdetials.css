@@ -6,7 +6,7 @@
 /* Registration Section */
 .payment-instructions-container {
     max-width: 800px;
-    margin: 50px auto;
+    margin: 40px auto;
     text-align: center;
 }
 
@@ -26,6 +26,7 @@
     display: flex;
     flex-direction: column;
     gap: 15px;
+    margin-top:20px;
     margin-bottom: 30px;
     padding-bottom:30px;
 }
@@ -93,7 +94,8 @@
 /* Responsive Design*/
 @media (max-width: 768px) {
     .payment-instructions-container {
-        margin: 40px 10px;
+        margin: 40px 0 ;
+        padding: 0 15px;
     }
 
     .payment-instructions-container .section-heading h3 {
@@ -124,7 +126,7 @@
 /* Responsive Design for Small-Sized Devices (Mobile) */
 @media (max-width: 480px) {
     .payment-instructions-container .section-heading h3 {
-        font-size: 1.5rem;
+        font-size: 1.6rem;
     }
 
     /* Adjust instruction item padding and text alignment */
