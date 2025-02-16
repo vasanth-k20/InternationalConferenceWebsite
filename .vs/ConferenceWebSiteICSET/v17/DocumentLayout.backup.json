@@ -70,8 +70,7 @@
               "RelativeToolTip": "ConferenceWebSiteICSET\\Views\\AboutUs\\Scope_of_conference.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-16T01:01:47.827Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-16T01:01:47.827Z"
             },
             {
               "$type": "Document",
@@ -79,8 +78,8 @@
               "Title": "scope.css",
               "DocumentMoniker": "C:\\Users\\office\\OneDrive\\Desktop\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\wwwroot\\css\\scope.css",
               "RelativeDocumentMoniker": "ConferenceWebSiteICSET\\wwwroot\\css\\scope.css",
-              "ToolTip": "C:\\Users\\office\\OneDrive\\Desktop\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\wwwroot\\css\\scope.css*",
-              "RelativeToolTip": "ConferenceWebSiteICSET\\wwwroot\\css\\scope.css*",
+              "ToolTip": "C:\\Users\\office\\OneDrive\\Desktop\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\wwwroot\\css\\scope.css",
+              "RelativeToolTip": "ConferenceWebSiteICSET\\wwwroot\\css\\scope.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2025-02-16T00:59:20.02Z",
@@ -92,12 +91,11 @@
               "Title": "about.css",
               "DocumentMoniker": "C:\\Users\\office\\OneDrive\\Desktop\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\wwwroot\\css\\about.css",
               "RelativeDocumentMoniker": "ConferenceWebSiteICSET\\wwwroot\\css\\about.css",
-              "ToolTip": "C:\\Users\\office\\OneDrive\\Desktop\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\wwwroot\\css\\about.css*",
-              "RelativeToolTip": "ConferenceWebSiteICSET\\wwwroot\\css\\about.css*",
+              "ToolTip": "C:\\Users\\office\\OneDrive\\Desktop\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\wwwroot\\css\\about.css",
+              "RelativeToolTip": "ConferenceWebSiteICSET\\wwwroot\\css\\about.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-02-16T00:59:04.802Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-16T00:59:04.802Z"
             },
             {
               "$type": "Document",
@@ -109,8 +107,7 @@
               "RelativeToolTip": "ConferenceWebSiteICSET\\Views\\AboutUs\\About_the_Conference.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-16T00:57:13.657Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-16T00:57:13.657Z"
             },
             {
               "$type": "Document",
@@ -122,8 +119,7 @@
               "RelativeToolTip": "ConferenceWebSiteICSET\\wwwroot\\css\\site.css",
               "ViewState": "AgIAAMwBAAAAAAAAAAAAwMwBAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-02-16T00:49:21.191Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-16T00:49:21.191Z"
             },
             {
               "$type": "Document",
@@ -135,8 +131,7 @@
               "RelativeToolTip": "ConferenceWebSiteICSET\\wwwroot\\css\\papersub.css",
               "ViewState": "AgIAAGYAAAAAAAAAAAAAAHgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-02-15T19:52:46.315Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-15T19:52:46.315Z"
             },
             {
               "$type": "Document",
@@ -148,8 +143,7 @@
               "RelativeToolTip": "ConferenceWebSiteICSET\\wwwroot\\css\\regdetials.css",
               "ViewState": "AgIAAG8AAAAAAAAAAAAAAGEAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-02-15T19:52:42.561Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-15T19:52:42.561Z"
             },
             {
               "$type": "Document",
@@ -161,8 +155,7 @@
               "RelativeToolTip": "ConferenceWebSiteICSET\\wwwroot\\css\\keydate.css",
               "ViewState": "AgIAADYAAAAAAAAAAAAAAHUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-02-15T19:52:02.655Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-15T19:52:02.655Z"
             }
           ]
         }
