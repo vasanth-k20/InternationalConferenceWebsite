@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "UrNnBzxMkcM=",
+  "dgSpecHash": "0HHuZFCPuHs=",
   "success": true,
   "projectFilePath": "C:\\Users\\office\\OneDrive\\Desktop\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\office\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.21.0\\microsoft.visualstudio.azure.containers.tools.targets.1.21.0.nupkg.sha512"
+  ],
   "logs": []
 }
