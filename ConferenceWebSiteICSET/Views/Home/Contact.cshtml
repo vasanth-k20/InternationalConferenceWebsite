@@ -42,34 +42,39 @@
                         <div class="row gy-3 ">
                             <!-- First Name -->
                             <div class="col-12 col-md-6">
-                                <input asp-for="FirstName" class="form-control fs-5 placeholder-white" name="FirstName" id="name" placeholder="Your Name *" />
+                                <label class="form-label fw-bold"> FirstName *</label>
+                                <input asp-for="FirstName" class="form-control border-primary border-2 shadow-sm fs-5" name="FirstName" id="name" />
                                 <span asp-validation-for="FirstName" class="text-danger"></span>
                             </div>
                             <!-- Last Name -->
                             <div class="col-12 col-md-6">
-                                <input asp-for="LastName" class="form-control fs-5 placeholder-white" name="LastName" id="last_name" placeholder="Last Name *" />
+                                <label class="form-label fw-bold"> LastName *</label>
+                                <input asp-for="LastName" class="form-control border-primary border-2 shadow-sm fs-5" name="LastName" id="last_name" />
                                 <span asp-validation-for="LastName" class="text-danger"></span>
                             </div>
                             <!-- Email -->
                             <div class="col-12 col-md-6">
-                                <input asp-for="Email" class="form-control fs-5 placeholder-white" name="Email" id="email" placeholder="E-mail *" />
+                                <label class="form-label fw-bold"> Email *</label>
+                                <input asp-for="Email" class="form-control border-primary border-2 shadow-sm fs-5" name="Email" id="email" />
                                 <span asp-validation-for="Email" class="text-danger"></span>
                             </div>
                             <!-- Phone Number -->
                             <div class="col-12 col-md-6">
-                                <input asp-for="PhoneNumber" class="form-control fs-5 placeholder-white" name="PhoneNumber" id="subject" placeholder="Your Number *" />
+                                <label class="form-label fw-bold"> PhoneNumber *</label>
+                                <input asp-for="PhoneNumber" class="form-control border-primary border-2 shadow-sm fs-5" name="PhoneNumber" id="subject" />
                                 <span asp-validation-for="PhoneNumber" class="text-danger"></span>
                             </div>
                             <!-- Message -->
                             <div class="col-12">
-                                <textarea asp-for="Message" class="form-control fs-5 placeholder-white" id="message" placeholder="Your Message *" rows="3"></textarea>
+                                <label class="form-label fw-bold"> Message *</label>
+                                <textarea asp-for="Message" class="form-control border-primary border-2 shadow-sm fs-5" id="message" rows="3"></textarea>
                                 <span asp-validation-for="Message" class="text-danger"></span>
                             </div>
 
                             <!-- Submit Button -->
-                            <div class="col-12 text-start">
+                            <div class="col-12 text-start consub">
                                 <div class=" mt-4">
-                                    <button asp-controller="ContactForm" asp-action="ContactForm1" class="consub">Send Message</button>
+                                    <button asp-controller="ContactForm" asp-action="ContactForm1">Send Message</button>
                                 </div>
                             </div>
                         </div>
