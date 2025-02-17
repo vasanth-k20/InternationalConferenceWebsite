@@ -887,7 +887,7 @@ a.browse {
 .event-details {
     display: flex;
     justify-content: center;
-    gap: 100px;
+    gap: 60px;
     flex-wrap: wrap;
     margin-bottom: 0;
     text-align: center;
