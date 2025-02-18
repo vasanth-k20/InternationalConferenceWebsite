@@ -19,11 +19,11 @@
     letter-spacing: 1px;
 }
 
-/*.error {
+.error {
     color: #2b78e4;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-style: italic;
-}*/
+}
 
 /* Card Design */
 .form-container {
