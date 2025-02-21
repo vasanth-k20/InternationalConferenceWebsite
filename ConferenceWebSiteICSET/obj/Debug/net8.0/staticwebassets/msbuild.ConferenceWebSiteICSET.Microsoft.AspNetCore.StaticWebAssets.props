@@ -48,8 +48,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>7o1twpdp89</Fingerprint>
-      <Integrity>SR7p4cEX5uGyfgqJPWIjYU4+waVCGnSebU0a9lU2lkQ=</Integrity>
+      <Fingerprint>30q0uxh29o</Fingerprint>
+      <Integrity>oxWGn82PzXtrq0ihAfOSEHzkix7bjdTN+CDLgq4bTog=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\contact.css'))</OriginalItemSpec>
@@ -66,8 +66,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>vnjdbkg5n5</Fingerprint>
-      <Integrity>NWBUTnG71Wjj7589kc6AmbKZUBWgGsn8INrm9XvC/bI=</Integrity>
+      <Fingerprint>1pkta6iy0e</Fingerprint>
+      <Integrity>+y8fyLBkYtCt9cImduZFbGYPF/faF+EitBPqVPk+0UU=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\ediytBoard.css'))</OriginalItemSpec>
@@ -120,8 +120,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>ccigvsmjwu</Fingerprint>
-      <Integrity>3E8CcbNHfToIEa3d35X7nnpqj7Fzb7IYDS7rP0GY3SU=</Integrity>
+      <Fingerprint>pgpgf6686c</Fingerprint>
+      <Integrity>F3RB1Tu9clGvtgYcry2AjHXhTGulvzPZYZT9sjqBnD8=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\orgainzer.css'))</OriginalItemSpec>
@@ -138,8 +138,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>gdw1mrqnz8</Fingerprint>
-      <Integrity>JNyWAS+hleASZk+SyvmD75omYwLJwQK9fd1bu1ki0Bs=</Integrity>
+      <Fingerprint>7ho56wtyuv</Fingerprint>
+      <Integrity>1V668EY8JEji05XeVYwOPECR/Ka6z6nwQeh1skPLxbA=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\papersub.css'))</OriginalItemSpec>
@@ -192,8 +192,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>p7miqj81mp</Fingerprint>
-      <Integrity>C3kNY3q36Ea1L4Um/F3jDDsuaBiP3Rvyx1W/KyvL87A=</Integrity>
+      <Fingerprint>mpq10e023s</Fingerprint>
+      <Integrity>hkrqWrrFb+bo4yegQFZiZuEwnLhnYpo/M7UN1u1/85U=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</OriginalItemSpec>
@@ -431,6 +431,60 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\home.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\ICCSI'Artboard 2.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ConferenceWebSiteICSET</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ConferenceWebSiteICSET</BasePath>
+      <RelativePath>img/ICCSI'Artboard 2.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>a965lp7m7z</Fingerprint>
+      <Integrity>EiiSkfh/CIadgaiLUDYcFAbMaE1jb6MeJanNg2UytrI=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\ICCSI'Artboard 2.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\ICCSIArtboard 1.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ConferenceWebSiteICSET</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ConferenceWebSiteICSET</BasePath>
+      <RelativePath>img/ICCSIArtboard 1.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>zsqdjln34z</Fingerprint>
+      <Integrity>DaDqn2CJFxKG42lwim7VNLbK+MCalfJmCBrLW8jzTK4=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\ICCSIArtboard 1.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\ICCSIArtboard 2.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ConferenceWebSiteICSET</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ConferenceWebSiteICSET</BasePath>
+      <RelativePath>img/ICCSIArtboard 2.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>p08ga6ppn9</Fingerprint>
+      <Integrity>Z4FctR6En26Beoh4UT233Advb7GTwuyPOpaxPGP0LSc=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\ICCSIArtboard 2.png'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\invities1.jpg'))">
       <SourceType>Package</SourceType>

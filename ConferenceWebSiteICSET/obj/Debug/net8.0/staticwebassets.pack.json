@@ -49,6 +49,18 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\office\\OneDrive\\Desktop\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\wwwroot\\img\\ICCSI'Artboard 2.png",
+      "PackagePath": "staticwebassets\\img\\ICCSI'Artboard 2.png"
+    },
+    {
+      "Id": "C:\\Users\\office\\OneDrive\\Desktop\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\wwwroot\\img\\ICCSIArtboard 1.png",
+      "PackagePath": "staticwebassets\\img\\ICCSIArtboard 1.png"
+    },
+    {
+      "Id": "C:\\Users\\office\\OneDrive\\Desktop\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\wwwroot\\img\\ICCSIArtboard 2.png",
+      "PackagePath": "staticwebassets\\img\\ICCSIArtboard 2.png"
+    },
+    {
       "Id": "C:\\Users\\office\\OneDrive\\Desktop\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\wwwroot\\img\\about.jpg",
       "PackagePath": "staticwebassets\\img\\about.jpg"
     },

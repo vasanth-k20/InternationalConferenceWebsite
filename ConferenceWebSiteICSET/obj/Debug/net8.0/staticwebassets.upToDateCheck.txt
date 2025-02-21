@@ -21,6 +21,9 @@ wwwroot\img\down.png
 wwwroot\img\fb.png
 wwwroot\img\gmail.png
 wwwroot\img\home.jpg
+wwwroot\img\ICCSIArtboard 1.png
+wwwroot\img\ICCSIArtboard 2.png
+wwwroot\img\ICCSI'Artboard 2.png
 wwwroot\img\invities1.jpg
 wwwroot\img\invities2.jpg
 wwwroot\img\logo.png

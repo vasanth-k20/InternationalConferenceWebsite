@@ -3,20 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\office\\OneDrive\\Desktop\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E67B4BCE-ED9C-4810-843A-5FC9005C9230}|ConferenceWebSiteICSET\\ConferenceWebSiteICSET.csproj|c:\\users\\office\\onedrive\\desktop\\conferencewebsiteicset\\conferencewebsiteicset\\conferencewebsiteicset\\wwwroot\\css\\ediytboard.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{E67B4BCE-ED9C-4810-843A-5FC9005C9230}|ConferenceWebSiteICSET\\ConferenceWebSiteICSET.csproj|solutionrelative:conferencewebsiteicset\\wwwroot\\css\\ediytboard.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E67B4BCE-ED9C-4810-843A-5FC9005C9230}|ConferenceWebSiteICSET\\ConferenceWebSiteICSET.csproj|c:\\users\\office\\onedrive\\desktop\\conferencewebsiteicset\\conferencewebsiteicset\\conferencewebsiteicset\\wwwroot\\css\\contact.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{E67B4BCE-ED9C-4810-843A-5FC9005C9230}|ConferenceWebSiteICSET\\ConferenceWebSiteICSET.csproj|solutionrelative:conferencewebsiteicset\\wwwroot\\css\\contact.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E67B4BCE-ED9C-4810-843A-5FC9005C9230}|ConferenceWebSiteICSET\\ConferenceWebSiteICSET.csproj|c:\\users\\office\\onedrive\\desktop\\conferencewebsiteicset\\conferencewebsiteicset\\conferencewebsiteicset\\wwwroot\\css\\papersub.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{E67B4BCE-ED9C-4810-843A-5FC9005C9230}|ConferenceWebSiteICSET\\ConferenceWebSiteICSET.csproj|solutionrelative:conferencewebsiteicset\\wwwroot\\css\\papersub.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E67B4BCE-ED9C-4810-843A-5FC9005C9230}|ConferenceWebSiteICSET\\ConferenceWebSiteICSET.csproj|c:\\users\\office\\onedrive\\desktop\\conferencewebsiteicset\\conferencewebsiteicset\\conferencewebsiteicset\\wwwroot\\css\\orgainzer.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{E67B4BCE-ED9C-4810-843A-5FC9005C9230}|ConferenceWebSiteICSET\\ConferenceWebSiteICSET.csproj|solutionrelative:conferencewebsiteicset\\wwwroot\\css\\orgainzer.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{E67B4BCE-ED9C-4810-843A-5FC9005C9230}|ConferenceWebSiteICSET\\ConferenceWebSiteICSET.csproj|c:\\users\\office\\onedrive\\desktop\\conferencewebsiteicset\\conferencewebsiteicset\\conferencewebsiteicset\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E67B4BCE-ED9C-4810-843A-5FC9005C9230}|ConferenceWebSiteICSET\\ConferenceWebSiteICSET.csproj|solutionrelative:conferencewebsiteicset\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E67B4BCE-ED9C-4810-843A-5FC9005C9230}|ConferenceWebSiteICSET\\ConferenceWebSiteICSET.csproj|c:\\users\\office\\onedrive\\desktop\\conferencewebsiteicset\\conferencewebsiteicset\\conferencewebsiteicset\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
@@ -30,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,67 +38,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "contact.css",
-              "DocumentMoniker": "C:\\Users\\office\\OneDrive\\Desktop\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\wwwroot\\css\\contact.css",
-              "RelativeDocumentMoniker": "ConferenceWebSiteICSET\\wwwroot\\css\\contact.css",
-              "ToolTip": "C:\\Users\\office\\OneDrive\\Desktop\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\wwwroot\\css\\contact.css",
-              "RelativeToolTip": "ConferenceWebSiteICSET\\wwwroot\\css\\contact.css",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-02-21T00:17:41.339Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "papersub.css",
-              "DocumentMoniker": "C:\\Users\\office\\OneDrive\\Desktop\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\wwwroot\\css\\papersub.css",
-              "RelativeDocumentMoniker": "ConferenceWebSiteICSET\\wwwroot\\css\\papersub.css",
-              "ToolTip": "C:\\Users\\office\\OneDrive\\Desktop\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\wwwroot\\css\\papersub.css",
-              "RelativeToolTip": "ConferenceWebSiteICSET\\wwwroot\\css\\papersub.css",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAABgAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-02-21T00:16:30.436Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ediytBoard.css",
-              "DocumentMoniker": "C:\\Users\\office\\OneDrive\\Desktop\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\wwwroot\\css\\ediytBoard.css",
-              "RelativeDocumentMoniker": "ConferenceWebSiteICSET\\wwwroot\\css\\ediytBoard.css",
-              "ToolTip": "C:\\Users\\office\\OneDrive\\Desktop\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\wwwroot\\css\\ediytBoard.css",
-              "RelativeToolTip": "ConferenceWebSiteICSET\\wwwroot\\css\\ediytBoard.css",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAADMAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-02-21T00:15:01.963Z",
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\office\\OneDrive\\Desktop\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ConferenceWebSiteICSET\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\office\\OneDrive\\Desktop\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ConferenceWebSiteICSET\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-21T00:24:06.865Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Users\\office\\OneDrive\\Desktop\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "ConferenceWebSiteICSET\\wwwroot\\css\\site.css",
               "ToolTip": "C:\\Users\\office\\OneDrive\\Desktop\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\wwwroot\\css\\site.css",
               "RelativeToolTip": "ConferenceWebSiteICSET\\wwwroot\\css\\site.css",
-              "ViewState": "AgIAAPUBAAAAAAAAAAAAAAUCAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAAAIIAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2025-02-21T00:08:47.36Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "orgainzer.css",
-              "DocumentMoniker": "C:\\Users\\office\\OneDrive\\Desktop\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\wwwroot\\css\\orgainzer.css",
-              "RelativeDocumentMoniker": "ConferenceWebSiteICSET\\wwwroot\\css\\orgainzer.css",
-              "ToolTip": "C:\\Users\\office\\OneDrive\\Desktop\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\wwwroot\\css\\orgainzer.css",
-              "RelativeToolTip": "ConferenceWebSiteICSET\\wwwroot\\css\\orgainzer.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-02-21T00:08:36.256Z",
               "EditorCaption": ""
             }
           ]
