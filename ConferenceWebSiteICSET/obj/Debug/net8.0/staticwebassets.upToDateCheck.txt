@@ -27,6 +27,7 @@ wwwroot\img\ICCSI'Artboard 2.png
 wwwroot\img\invities1.jpg
 wwwroot\img\invities2.jpg
 wwwroot\img\logo.png
+wwwroot\img\Logoo.png
 wwwroot\img\totop.png
 wwwroot\img\x.png
 wwwroot\js\site.js

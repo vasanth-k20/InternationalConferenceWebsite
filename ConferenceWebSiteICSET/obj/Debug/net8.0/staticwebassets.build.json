@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Y4wgEIlkWIQ00QgjuFy1MNMwTkUtXqkjXQHrBBarDEg=",
+  "Hash": "LjYbys5+7jPbKB4cwJIN7Lt5ZGENNylGXx455W3xVHQ=",
   "Source": "ConferenceWebSiteICSET",
   "BasePath": "_content/ConferenceWebSiteICSET",
   "Mode": "Default",
@@ -199,8 +199,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "7ho56wtyuv",
-      "Integrity": "1V668EY8JEji05XeVYwOPECR/Ka6z6nwQeh1skPLxbA=",
+      "Fingerprint": "dmvs09zbr8",
+      "Integrity": "FUPbSXacxeIKkZMouIcP23PmZAPAGa62K2NoNHMsbp8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\papersub.css"
@@ -666,6 +666,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\logo.png"
+    },
+    {
+      "Identity": "C:\\Users\\office\\OneDrive\\Desktop\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\wwwroot\\img\\Logoo.png",
+      "SourceId": "ConferenceWebSiteICSET",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\office\\OneDrive\\Desktop\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\wwwroot\\",
+      "BasePath": "_content/ConferenceWebSiteICSET",
+      "RelativePath": "img/Logoo#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "lhwphnbxnz",
+      "Integrity": "RzJWo+VFZMGlT7P2wNkXp9nuHkLDVIDRTuEOpX8H3b0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Logoo.png"
     },
     {
       "Identity": "C:\\Users\\office\\OneDrive\\Desktop\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\wwwroot\\img\\totop.png",
@@ -2586,51 +2607,6 @@
       ]
     },
     {
-      "Route": "css/papersub.7ho56wtyuv.css",
-      "AssetFile": "C:\\Users\\office\\OneDrive\\Desktop\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\wwwroot\\css\\papersub.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "4433"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"1V668EY8JEji05XeVYwOPECR/Ka6z6nwQeh1skPLxbA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 21 Feb 2025 00:16:47 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "7ho56wtyuv"
-        },
-        {
-          "Name": "label",
-          "Value": "css/papersub.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-1V668EY8JEji05XeVYwOPECR/Ka6z6nwQeh1skPLxbA="
-        }
-      ]
-    },
-    {
       "Route": "css/papersub.css",
       "AssetFile": "C:\\Users\\office\\OneDrive\\Desktop\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\wwwroot\\css\\papersub.css",
       "Selectors": [],
@@ -2649,11 +2625,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"1V668EY8JEji05XeVYwOPECR/Ka6z6nwQeh1skPLxbA=\""
+          "Value": "\"FUPbSXacxeIKkZMouIcP23PmZAPAGa62K2NoNHMsbp8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 21 Feb 2025 00:16:47 GMT"
+          "Value": "Fri, 21 Feb 2025 14:43:51 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2663,7 +2639,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-1V668EY8JEji05XeVYwOPECR/Ka6z6nwQeh1skPLxbA="
+          "Value": "sha256-FUPbSXacxeIKkZMouIcP23PmZAPAGa62K2NoNHMsbp8="
+        }
+      ]
+    },
+    {
+      "Route": "css/papersub.dmvs09zbr8.css",
+      "AssetFile": "C:\\Users\\office\\OneDrive\\Desktop\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\wwwroot\\css\\papersub.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4433"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FUPbSXacxeIKkZMouIcP23PmZAPAGa62K2NoNHMsbp8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Feb 2025 14:43:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dmvs09zbr8"
+        },
+        {
+          "Name": "label",
+          "Value": "css/papersub.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-FUPbSXacxeIKkZMouIcP23PmZAPAGa62K2NoNHMsbp8="
         }
       ]
     },
@@ -2854,7 +2875,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 21 Feb 2025 00:30:43 GMT"
+          "Value": "Fri, 21 Feb 2025 00:37:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2891,7 +2912,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 21 Feb 2025 00:30:43 GMT"
+          "Value": "Fri, 21 Feb 2025 00:37:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4468,6 +4489,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-Gnk6nYmSUPj677vqw3KR5ZXGf55nmguJCQcDB77Qi8E="
+        }
+      ]
+    },
+    {
+      "Route": "img/Logoo.lhwphnbxnz.png",
+      "AssetFile": "C:\\Users\\office\\OneDrive\\Desktop\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\wwwroot\\img\\Logoo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "277322"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RzJWo+VFZMGlT7P2wNkXp9nuHkLDVIDRTuEOpX8H3b0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Feb 2025 00:37:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lhwphnbxnz"
+        },
+        {
+          "Name": "label",
+          "Value": "img/Logoo.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-RzJWo+VFZMGlT7P2wNkXp9nuHkLDVIDRTuEOpX8H3b0="
+        }
+      ]
+    },
+    {
+      "Route": "img/Logoo.png",
+      "AssetFile": "C:\\Users\\office\\OneDrive\\Desktop\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\wwwroot\\img\\Logoo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "277322"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RzJWo+VFZMGlT7P2wNkXp9nuHkLDVIDRTuEOpX8H3b0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Feb 2025 00:37:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-RzJWo+VFZMGlT7P2wNkXp9nuHkLDVIDRTuEOpX8H3b0="
         }
       ]
     },

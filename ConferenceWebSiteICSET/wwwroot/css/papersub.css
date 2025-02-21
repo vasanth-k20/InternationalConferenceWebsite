@@ -71,7 +71,7 @@ form {
 
     .form-group input,
     .form-group select {
-        border: 2px solid #2b78e4;
+        border: 2px solid #fcac45;
         border-radius: 8px;
         padding: 10px;
         font-size: 1rem;
@@ -90,7 +90,7 @@ form {
 }
 
     .form-button button {
-        background: linear-gradient(135deg, #2b78e4, #1d5cae);
+        background: linear-gradient(135deg, #fcac45, #ff6a00);
         color: #fff;
         font-size: 1.2rem;
         font-weight: bold;
@@ -103,7 +103,7 @@ form {
     }
 
         .form-button button:hover {
-            background: linear-gradient(135deg, #1d5cae, #174484);
+            background: linear-gradient(135deg, #fcac45, #ff6a00);
             transform: translateY(-2px);
         }
 

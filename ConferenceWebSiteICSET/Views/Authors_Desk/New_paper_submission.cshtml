@@ -54,37 +54,37 @@
                 <form asp-controller="Authors_Desk" asp-action="NewPaperSubmission" method="post" enctype="multipart/form-data" novalidate>
                     <div class="form-group">
                         <label class="form-label fw-bold">Paper Title *</label>
-                        <input asp-for="Papertitle" class="form-control border-primary shadow-sm fs-5" name="Papertitle">
+                        <input asp-for="Papertitle" class="form-control shadow-sm fs-5" name="Papertitle">
                         <span asp-validation-for="Papertitle" class="text-danger"></span>
                     </div>
 
                     <div class="form-group">
                         <label class="form-label fw-bold">Author Full Name *</label>
-                        <input asp-for="AuthorFullName" class="form-control border-primary shadow-sm fs-5" name="AuthorFullName">
+                        <input asp-for="AuthorFullName" class="form-control shadow-sm fs-5" name="AuthorFullName">
                         <span asp-validation-for="AuthorFullName" class="text-danger"></span>
                     </div>
 
                     <div class="form-group">
                         <label class="form-label fw-bold">Author Mobile Number *</label>
-                        <input asp-for="AuthorMobile" class="form-control border-primary shadow-sm fs-5" name="AuthorMobile">
+                        <input asp-for="AuthorMobile" class="form-control shadow-sm fs-5" name="AuthorMobile">
                         <span asp-validation-for="AuthorMobile" class="text-danger"></span>
                     </div>
 
                     <div class="form-group">
                         <label class="form-label fw-bold">Author Email Address *</label>
-                        <input asp-for="AuthorEmail" class="form-control border-primary shadow-sm fs-5" name="AuthorEmail">
+                        <input asp-for="AuthorEmail" class="form-control shadow-sm fs-5" name="AuthorEmail">
                         <span asp-validation-for="AuthorEmail" class="text-danger"></span>
                     </div>
 
                     <div class="form-group">
                         <label class="form-label fw-bold">Author Institution Name *</label>
-                        <input asp-for="AuthorInstitution" class="form-control border-primary shadow-sm fs-5" name="AuthorInstitution">
+                        <input asp-for="AuthorInstitution" class="form-control shadow-sm fs-5" name="AuthorInstitution">
                         <span asp-validation-for="AuthorInstitution" class="text-danger"></span>
                     </div>
 
                     <div class="form-group">
                         <label class="form-label fw-bold">Author Category *</label>
-                        <select asp-for="AuthorCategory" class="form-select border-primary shadow-sm fs-5">
+                        <select asp-for="AuthorCategory" class="form-select shadow-sm fs-5">
                             <option value="">-- Select Category --</option>
                             <option value="student">Student</option>
                             <option value="faculty">Faculty</option>
@@ -96,7 +96,7 @@
 
                     <div class="form-group">
                         <label class="form-label fw-bold"> Upload Paper *</label>
-                        <input asp-for="PaperFile" name="PaperFile" class="form-control border-primary shadow-sm fs-5" accept=".pdf,.doc,.docx">
+                        <input asp-for="PaperFile" name="PaperFile" class="form-control shadow-sm fs-5" accept=".pdf,.doc,.docx">
                         <span asp-validation-for="PaperFile" class="text-danger"></span>
                     </div>
 

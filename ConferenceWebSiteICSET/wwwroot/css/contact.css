@@ -18,7 +18,7 @@
 }
 
 .consub button {
-    background: #fcac45;
+    background: linear-gradient(135deg, #fcac45, #ff6a00);
     color: #000;
     font-size: 1.2rem;
     font-weight: bold;
@@ -31,7 +31,7 @@
 }
 
     .consub button:hover {
-        background: #fcac45;
+        background: linear-gradient(135deg, #fcac45, #ff6a00);
         transform: translateY(-2px);
     }
 
