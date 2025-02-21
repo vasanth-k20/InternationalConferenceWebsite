@@ -66,8 +66,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>zcnm7ryfci</Fingerprint>
-      <Integrity>PU1z009MXLCEMCq5isyQiQkylpdgooqF7AnJ7tyzOOE=</Integrity>
+      <Fingerprint>vnjdbkg5n5</Fingerprint>
+      <Integrity>NWBUTnG71Wjj7589kc6AmbKZUBWgGsn8INrm9XvC/bI=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\ediytBoard.css'))</OriginalItemSpec>
@@ -138,8 +138,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>wadbtd53nq</Fingerprint>
-      <Integrity>GLk+BHSGxjIkeil2gFUhIlPNuQg6rduXcrva5JEfF3k=</Integrity>
+      <Fingerprint>gdw1mrqnz8</Fingerprint>
+      <Integrity>JNyWAS+hleASZk+SyvmD75omYwLJwQK9fd1bu1ki0Bs=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\papersub.css'))</OriginalItemSpec>
@@ -156,8 +156,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>d9tts8eyfi</Fingerprint>
-      <Integrity>n6rJb1KniXa+EWa/kkSlneV2QN6f8l7UsWx8PntyyeA=</Integrity>
+      <Fingerprint>ssjui0jzqy</Fingerprint>
+      <Integrity>RP7Zt8FNC0vXlWc2iAFpeYPhud/nkgHXdCl9g5PqYv4=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\regdetials.css'))</OriginalItemSpec>
@@ -192,8 +192,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>zqtxsell99</Fingerprint>
-      <Integrity>JcfgWLPnSwbo/Wg31HyKrnWXRB4ArbZbTucsRbCBNNU=</Integrity>
+      <Fingerprint>p7miqj81mp</Fingerprint>
+      <Integrity>C3kNY3q36Ea1L4Um/F3jDDsuaBiP3Rvyx1W/KyvL87A=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</OriginalItemSpec>
@@ -486,23 +486,23 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\logo.png'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\up.png'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\totop.png'))">
       <SourceType>Package</SourceType>
       <SourceId>ConferenceWebSiteICSET</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/ConferenceWebSiteICSET</BasePath>
-      <RelativePath>img/up.png</RelativePath>
+      <RelativePath>img/totop.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>p6te35zu1c</Fingerprint>
-      <Integrity>QVLY7liNi8IaDixC3VvwXJi4CYa4Gej9dWM7HT7GDWA=</Integrity>
+      <Fingerprint>7ihpzzwwlk</Fingerprint>
+      <Integrity>IWyJnro3VR7/4dZJU6Z6b2kMRHG/L0Kr/hlksTw8f5w=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\up.png'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\totop.png'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\x.png'))">
       <SourceType>Package</SourceType>

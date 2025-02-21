@@ -162,7 +162,7 @@ body {
 
                 .top-nav ul li a:hover,
                 .top-nav ul li a.active {
-                    color: #FFB22C;
+                    color: #fcac45;
                 }
 
 /* Menu Toggle */
@@ -292,7 +292,7 @@ body {
     }
 
     .header-matter p {
-        font-size: 1.2em;
+        font-size: 1.1em;
         margin: 2em 10px;
         text-align: center;
         line-height:25px;
@@ -322,8 +322,9 @@ body {
     }
 
     .header-matter p {
-        font-size: 1.2em;
+        font-size: 1em;
         margin: 1.5em 10px;
+        line-height: 20px;
     }
 
     .scroll-icon {
@@ -905,7 +906,7 @@ a.browse {
 
     .event-detail-box .icon {
         font-size: 47px;
-        color: #ff9018;
+        color: #fcac45;
         margin-bottom: 10px;
     }
 
@@ -935,14 +936,6 @@ a.browse {
         font-weight: bold;
         color: #333;
         margin-bottom: 10px;
-        padding-top: 10px;
-    }
-
-    .contact-details h3 span {
-        font-size: 45px;
-        color: #ff9018;
-        text-transform: uppercase;
-        font-weight: 700;
     }
 
     .contact-details p {
@@ -952,7 +945,7 @@ a.browse {
     }
 
     .contact-details i {
-        color: #ff9018;
+        color: #fcac45;
         margin-right: 8px;
     }
 
@@ -1179,7 +1172,6 @@ ul.social-ic-icons {
 
 /* Scroll to Top Button */
 #toTop {
-    display: none;
     text-decoration: none;
     position: fixed;
     bottom: 25px;
@@ -1189,8 +1181,8 @@ ul.social-ic-icons {
     height: 48px;
     border: none;
     text-indent: -9999px;
-    background: url('/img/up.png') no-repeat center center;
-    background-size: contain;
+    background: url('../img/totop.png') no-repeat center center;
+    background-size: auto;
 }
 
 #toTopHover {
@@ -1223,7 +1215,7 @@ ul.social-ic-icons {
     }
 
     #toTop {
-        width: 40px;
-        height: 40px;
+        width: 33px;
+        height: 33px;
     }
 }

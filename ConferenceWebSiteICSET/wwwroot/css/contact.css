@@ -10,16 +10,16 @@
     padding-inline-start: 27px;
     font-size: 2.2rem;
     text-align: start ;
-    color: #2b78e4;
+    color: #000;
     font-weight: bold;
     text-transform: uppercase;
     margin-bottom: 30px;
     letter-spacing: 1px;
 }
 
-.consub button{
-    background: linear-gradient(135deg, #2b78e4, #1d5cae);
-    color: #fff;
+.consub button {
+    background: #fcac45;
+    color: #000;
     font-size: 1.2rem;
     font-weight: bold;
     border: none;
@@ -31,7 +31,7 @@
 }
 
     .consub button:hover {
-        background: linear-gradient(135deg, #1d5cae, #174484);
+        background: #fcac45;
         transform: translateY(-2px);
     }
 

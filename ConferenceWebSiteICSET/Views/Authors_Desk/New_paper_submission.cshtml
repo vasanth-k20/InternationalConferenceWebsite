@@ -32,84 +32,110 @@
     </div>
 </div>
 
+<div class="main_container">
 
-<!-- Paper Submission form --> 
-<section class="container my-5">
-    <!-- Alert for Messages -->
-    @if (!string.IsNullOrEmpty(message))
-    {
-        <div class="error">
-            <div class="alert @messageType">
-                @message
+    <!-- Paper Submission form -->
+    <section class="container">
+        <!-- Alert for Messages -->
+        @if (!string.IsNullOrEmpty(message))
+        {
+            <div class="error">
+                <div class="alert @messageType">
+                    @message
+                </div>
+            </div>
+        }
+
+        <!-- Paper Submission Form -->
+        <h3 class="form-heading">Paper Submission</h3>
+
+        <div class="form-container">
+            <div class="form-card">
+                <form asp-controller="Authors_Desk" asp-action="NewPaperSubmission" method="post" enctype="multipart/form-data" novalidate>
+                    <div class="form-group">
+                        <label class="form-label fw-bold">Paper Title *</label>
+                        <input asp-for="Papertitle" class="form-control border-primary shadow-sm fs-5" name="Papertitle">
+                        <span asp-validation-for="Papertitle" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label fw-bold">Author Full Name *</label>
+                        <input asp-for="AuthorFullName" class="form-control border-primary shadow-sm fs-5" name="AuthorFullName">
+                        <span asp-validation-for="AuthorFullName" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label fw-bold">Author Mobile Number *</label>
+                        <input asp-for="AuthorMobile" class="form-control border-primary shadow-sm fs-5" name="AuthorMobile">
+                        <span asp-validation-for="AuthorMobile" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label fw-bold">Author Email Address *</label>
+                        <input asp-for="AuthorEmail" class="form-control border-primary shadow-sm fs-5" name="AuthorEmail">
+                        <span asp-validation-for="AuthorEmail" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label fw-bold">Author Institution Name *</label>
+                        <input asp-for="AuthorInstitution" class="form-control border-primary shadow-sm fs-5" name="AuthorInstitution">
+                        <span asp-validation-for="AuthorInstitution" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label fw-bold">Author Category *</label>
+                        <select asp-for="AuthorCategory" class="form-select border-primary shadow-sm fs-5">
+                            <option value="">-- Select Category --</option>
+                            <option value="student">Student</option>
+                            <option value="faculty">Faculty</option>
+                            <option value="researcher">Researcher</option>
+                            <option value="others">Others</option>
+                        </select>
+                        <span asp-validation-for="AuthorCategory" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label fw-bold"> Upload Paper *</label>
+                        <input asp-for="PaperFile" name="PaperFile" class="form-control border-primary shadow-sm fs-5" accept=".pdf,.doc,.docx">
+                        <span asp-validation-for="PaperFile" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-button">
+                        <button type="submit">Submit Paper</button>
+                    </div>
+                </form>
             </div>
         </div>
-    }
+    </section>
 
-    <!-- Paper Submission Form -->
-    <h3 class="form-heading">
-        <i class="bi bi-file-earmark-text"></i> Paper Submission
-    </h3>
+    <div class="guide_container">
+        <p class="p">Follow these guidelines to submit your research paper</p>
+        <div class="card">
+            <h2>Submission Guidelines</h2>
+            <ul>
+                <li><span class="check-icon"><i class="fa-solid fa-circle-check"></i></span> Papers must be written in English</li>
+                <li><span class="check-icon"><i class="fa-solid fa-circle-check"></i></span> Maximum length: 8 pages including figures and references</li>
+                <li><span class="check-icon"><i class="fa-solid fa-circle-check"></i></span> Use the IEEE conference format</li>
+                <li><span class="check-icon"><i class="fa-solid fa-circle-check"></i></span> Submit in PDF, Docx, PPTX format</li>
+                <li><span class="check-icon"><i class="fa-solid fa-circle-check"></i></span> Include abstract (max 250 words)</li>
+                <li><span class="check-icon"><i class="fa-solid fa-circle-check"></i></span> Blind all author information for review</li>
+            </ul>
+        </div>
 
-    <div class="form-container">
-        <div class="form-card">
-            <form asp-controller="Authors_Desk" asp-action="NewPaperSubmission" method="post" enctype="multipart/form-data" novalidate>
-                <div class="form-group">
-                    <label class="form-label fw-bold">Paper Title *</label>
-                    <input asp-for="Papertitle" class="form-control border-primary shadow-sm fs-5" name="Papertitle">
-                    <span asp-validation-for="Papertitle" class="text-danger"></span>
-                </div>
-
-                <div class="form-group">
-                    <label class="form-label fw-bold">Author Full Name *</label>
-                    <input asp-for="AuthorFullName" class="form-control border-primary shadow-sm fs-5" name="AuthorFullName">
-                    <span asp-validation-for="AuthorFullName" class="text-danger"></span>
-                </div>
-
-                <div class="form-group">
-                    <label class="form-label fw-bold">Author Mobile Number *</label>
-                    <input asp-for="AuthorMobile" class="form-control border-primary shadow-sm fs-5" name="AuthorMobile">
-                    <span asp-validation-for="AuthorMobile" class="text-danger"></span>
-                </div>
-
-                <div class="form-group">
-                    <label class="form-label fw-bold">Author Email Address *</label>
-                    <input asp-for="AuthorEmail" class="form-control border-primary shadow-sm fs-5" name="AuthorEmail">
-                    <span asp-validation-for="AuthorEmail" class="text-danger"></span>
-                </div>
-
-                <div class="form-group">
-                    <label class="form-label fw-bold">Author Institution Name *</label>
-                    <input asp-for="AuthorInstitution" class="form-control border-primary shadow-sm fs-5" name="AuthorInstitution">
-                    <span asp-validation-for="AuthorInstitution" class="text-danger"></span>
-                </div>
-
-                <div class="form-group">
-                    <label class="form-label fw-bold">Author Category *</label>
-                    <select asp-for="AuthorCategory" class="form-select border-primary shadow-sm fs-5">
-                        <option value="">-- Select Category --</option>
-                        <option value="student">Student</option>
-                        <option value="faculty">Faculty</option>
-                        <option value="researcher">Researcher</option>
-                        <option value="others">Others</option>
-                    </select>
-                    <span asp-validation-for="AuthorCategory" class="text-danger"></span>
-                </div>
-
-                <div class="form-group">
-                    <label class="form-label fw-bold"> Upload Paper *</label>
-                    <input asp-for="PaperFile" name="PaperFile" class="form-control border-primary shadow-sm fs-5" accept=".pdf,.doc,.docx">
-                    <span asp-validation-for="PaperFile" class="text-danger"></span>
-                </div>
-
-                <div class="form-button">
-                    <button type="submit" class="btn btn-primary">
-                        <i class="bi bi-send"></i> Submit Paper
-                    </button>
-                </div>
-            </form>
+        <div class="card">
+            <h2>Important Notes</h2>
+            <ul>
+                <li><span class="info-icon"><i class="fa-solid fa-circle-info"></i></span> All papers undergo a double-blind peer review process</li>
+                <li><span class="info-icon"><i class="fa-solid fa-circle-info"></i></span> At least one author must register for the conference</li>
+                <li><span class="info-icon"><i class="fa-solid fa-circle-info"></i></span> Plagiarism checks will be performed</li>
+                <li><span class="info-icon"><i class="fa-solid fa-circle-info"></i></span> Multiple submissions are not allowed</li>
+                <li><span class="info-icon"><i class="fa-solid fa-circle-info"></i></span> Authors must present accepted papers at the conference</li>
+                <li><span class="info-icon"><i class="fa-solid fa-circle-info"></i></span> Papers will be published in the conference proceedings</li>
+            </ul>
         </div>
     </div>
-</section>
+
+</div>
 
 <!--avenue & contact-->
 <section class="avenue" id="avenue">
@@ -150,7 +176,9 @@
             <!-- Contact Details Section -->
             <div class="event-detail-box">
                 <div class="contact-details">
-                    <h3><span>inquiries</span></h3>
+                    <div class="icon">
+                        <i class="fa-solid fa-address-card"></i>
+                    </div>
                     <h4>CONTACT</h4>
                     <p><i class="fas fa-envelope"></i> Email: support@company.com</p>
                     <p><i class="fas fa-phone"></i> Phone: +1 123-456-7890</p>
@@ -168,7 +196,7 @@
     <div class="footcontainer">
         <div class="footer-class">
             <p class="footer-grid">
-                Copyrights © 2024, All Rights Reserved. Powered By BICSET
+                Copyrights © 2024, All Rights Reserved. Powered By BIICCSI
             </p>
             <ul class="social-ic-icons">
                 <li class="facebook"><a href="#"><span></span></a></li>

@@ -14,7 +14,7 @@
 
     .committee-header h3 {
         font-size: clamp(1.5rem, 2.5vw, 2.2rem);  
-        color: #2b78e4;
+        color: #000;
         font-weight: bold;
         text-transform: uppercase;
         margin-bottom: 30px;
@@ -34,7 +34,7 @@
 .committee-card {
     background: #ffffff;
     text-align: center;
-    border: 2px solid #2b78e4;
+    border: 2px solid #fcac45;
     border-radius: 15px;
     padding: 30px;
     width: 100%;
@@ -50,7 +50,6 @@
     .committee-card:hover {
         transform: translateY(-5px);
         box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
-        background-color: #edf4fc;
     }
 
     .committee-card strong {
@@ -173,7 +172,7 @@
         }
 
             .committee-card.large {
-                max-width: 100%;
+                max-width: 90%;
             }
 
             .committee-card strong {
