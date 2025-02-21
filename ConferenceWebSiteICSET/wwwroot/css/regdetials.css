@@ -14,7 +14,7 @@
     .payment-instructions-container .section-heading h3 {
         font-size: 2.2rem;
         text-align: center;
-        color: #2b78e4;
+        color: #000;
         font-weight: bold;
         text-transform: uppercase;
         margin-bottom: 15px;
@@ -33,6 +33,7 @@
 
 /* Instruction Item */
 .instruction-item {
+    border: 2px solid #eee;
     padding: 15px 20px;
     border-radius: 10px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -43,20 +44,15 @@
     line-height: 1.5;
 }
 
-/* Light Blue Background */
-.light-blue {
-    background-color: #dce9f8;
-    color: #2b78e4;
-}
-
 /* Light Lavender Background */
 .light-lavender {
-    background-color: #f4f7fc;
-    color: #5a5a5a;
+    background-color: #eee;
+    color: #222;
 }
 
 /* Hover Effects for Instruction Items */
 .instruction-item:hover {
+    border-color: #fcac45;
     transform: translateY(-5px);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }
@@ -78,7 +74,7 @@
 /* Bank Detail Titles */
 .bankdetail-title {
     font-weight: bold;
-    color: #2b78e4;
+    color: #000;
     width: 185px;
 }
 

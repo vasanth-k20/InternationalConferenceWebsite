@@ -17,8 +17,35 @@
     letter-spacing: 1px;
 }
 
+#main_contact_form input {
+    border-color: #000;
+}
+
+    #main_contact_form input:hover {
+        border-color: #fcac45;
+        box-shadow: 0 0 6px rgba(43, 120, 228, 0.4);
+    }
+
+    #main_contact_form input:focus {
+        border-color: #fcac45;
+        box-shadow: 0 0 6px rgba(43, 120, 228, 0.4);
+    }
+
+#main_contact_form textarea {
+    border-color: #000;
+}
+
+    #main_contact_form textarea:hover {
+        border-color: #fcac45;
+        box-shadow: 0 0 6px rgba(43, 120, 228, 0.4);
+    }
+
+    #main_contact_form textarea:focus {
+        border-color: #fcac45;
+        box-shadow: 0 0 6px rgba(43, 120, 228, 0.4);
+    }
 .consub button {
-    background: linear-gradient(135deg, #fcac45, #ff6a00);
+    background: linear-gradient(135deg, #fdbd71, #ff9040);
     color: #000;
     font-size: 1.2rem;
     font-weight: bold;
@@ -31,10 +58,11 @@
 }
 
     .consub button:hover {
-        background: linear-gradient(135deg, #fcac45, #ff6a00);
+        background: linear-gradient(135deg, #fdbd71, #ff9040);
+        color:#fff;
         transform: translateY(-2px);
     }
 
 #conh {
-    color: #2b78e4;
+    color: #000;
 }

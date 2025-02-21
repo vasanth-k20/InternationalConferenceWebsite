@@ -71,7 +71,7 @@ form {
 
     .form-group input,
     .form-group select {
-        border: 2px solid #fcac45;
+        border: 2px solid #000;
         border-radius: 8px;
         padding: 10px;
         font-size: 1rem;
@@ -79,9 +79,12 @@ form {
         transition: border-color 0.3s ease;
     }
 
-        .form-group input:focus,
-        .form-group select:focus {
-            border-color: #1d5cae;
+    .form-group input:hover,
+    .form-group select:hover {
+        border-color: #fcac45;
+    }
+        .form-group input:focus, .form-group select:focus {
+            border-color: #fcac45;
             box-shadow: 0 0 6px rgba(43, 120, 228, 0.4);
         }
 
@@ -90,8 +93,8 @@ form {
 }
 
     .form-button button {
-        background: linear-gradient(135deg, #fcac45, #ff6a00);
-        color: #fff;
+        background: linear-gradient(135deg, #fdbd71, #ff9040);
+        color: #000;
         font-size: 1.2rem;
         font-weight: bold;
         border: none;
@@ -104,6 +107,7 @@ form {
 
         .form-button button:hover {
             background: linear-gradient(135deg, #fcac45, #ff6a00);
+            color:#fff;
             transform: translateY(-2px);
         }
 

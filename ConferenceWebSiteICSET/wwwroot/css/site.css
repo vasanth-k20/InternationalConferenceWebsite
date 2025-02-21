@@ -191,6 +191,11 @@ body {
             color: #fcac45;
         }
 
+        .header-matter h3{
+            font-weight:600;
+            font-size:2.2em;
+        }
+
 .headabo {
     display:flex;
     justify-content:space-around ;
@@ -207,7 +212,7 @@ body {
 
 /* Register Button */
 .headregister {
-    background: #fcac45;
+    background: linear-gradient(135deg, #fdbd71, #ff9040);
     color: black;
     padding: 12px 34px;
     text-transform: uppercase;
@@ -291,6 +296,10 @@ body {
         font-size: 2.5em;
     }
 
+    .header-matter h3 {
+        font-size: 1.8em;
+    }
+
     .header-matter p {
         font-size: 1.1em;
         margin: 2em 10px;
@@ -319,6 +328,10 @@ body {
 
     .header-matter h2 {
         font-size: 2em;
+    }
+
+    .header-matter h3 {
+        font-size: 1.2em;
     }
 
     .header-matter p {
@@ -376,12 +389,6 @@ body {
         font-weight: 700;
         font-size: 2em;
         color: #fcac45;
-    }
-
-    .left-about h3 {
-        font-size: 2.7em;
-        color: #000;
-        margin: 0;
     }
 
     .left-about p {
@@ -880,7 +887,7 @@ a.browse {
 .avenue {
     padding-top: 3em; 
     padding-bottom:3em;
-    background-color: #ddd;
+    background-color: #e2e2e2;
     text-align: center;
 }
 
@@ -901,7 +908,7 @@ a.browse {
     text-align: center;
     max-width: 450px;
     width: 100%;
-    background:#ccc;
+    background:#efefef;
 }
 
     .event-detail-box .icon {
@@ -957,7 +964,7 @@ a.browse {
 }
 
 .register-button {
-    background: #fcac45;
+    background: linear-gradient(135deg, #fdbd71, #ff9040);
     color: black;
     padding: 12px 24px;
     text-transform: uppercase;

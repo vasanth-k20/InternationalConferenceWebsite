@@ -15,7 +15,7 @@ body {
 .important-dates-heading {
     font-size: 2.2rem;
     text-align:center;
-    color: #2b78e4;
+    color: #000;
     font-weight: bold;
     text-transform: uppercase;
     margin-bottom: 30px;
@@ -24,6 +24,7 @@ body {
 
 /* Rows */
 .important-date-row {
+    border: 2px solid #eee;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -35,20 +36,15 @@ body {
 }
 
     .important-date-row:hover {
+        border-color: #fcac45;
         transform: translateY(-5px);
         box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
     }
 
-/* Blue Row */
-.blue-row {
-    background-color: #dce9f8;
-    color: #2b78e4;
-}
-
 /* Lavender Row */
 .lavender-row {
-    background-color: #f4f7fc;
-    color: #5a5a5a;
+    background-color: #eee;
+    color: #222;
 }
 
 /* Title Column */
