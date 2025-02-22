@@ -777,6 +777,10 @@ a.browse {
     margin-top: 30px;
 }
 
+    .portfolio-grid > * {
+        aspect-ratio: 1 / 1;
+    }
+
 .portfolio-item {
     position: relative;
     overflow: hidden;

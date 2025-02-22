@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\office\\OneDrive\\Desktop\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E67B4BCE-ED9C-4810-843A-5FC9005C9230}|ConferenceWebSiteICSET\\ConferenceWebSiteICSET.csproj|c:\\users\\office\\onedrive\\desktop\\conferencewebsiteicset\\conferencewebsiteicset\\conferencewebsiteicset\\wwwroot\\css\\keydate.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{E67B4BCE-ED9C-4810-843A-5FC9005C9230}|ConferenceWebSiteICSET\\ConferenceWebSiteICSET.csproj|solutionrelative:conferencewebsiteicset\\wwwroot\\css\\keydate.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{E67B4BCE-ED9C-4810-843A-5FC9005C9230}|ConferenceWebSiteICSET\\ConferenceWebSiteICSET.csproj|c:\\users\\office\\onedrive\\desktop\\conferencewebsiteicset\\conferencewebsiteicset\\conferencewebsiteicset\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{E67B4BCE-ED9C-4810-843A-5FC9005C9230}|ConferenceWebSiteICSET\\ConferenceWebSiteICSET.csproj|solutionrelative:conferencewebsiteicset\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,14 +35,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "keydate.css",
-              "DocumentMoniker": "C:\\Users\\office\\OneDrive\\Desktop\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\wwwroot\\css\\keydate.css",
-              "RelativeDocumentMoniker": "ConferenceWebSiteICSET\\wwwroot\\css\\keydate.css",
-              "ToolTip": "C:\\Users\\office\\OneDrive\\Desktop\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\wwwroot\\css\\keydate.css",
-              "RelativeToolTip": "ConferenceWebSiteICSET\\wwwroot\\css\\keydate.css",
-              "ViewState": "AgIAAGMAAAAAAAAAAAAAAG4AAAAFAAAAAAAAAA==",
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\office\\OneDrive\\Desktop\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "ConferenceWebSiteICSET\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\office\\OneDrive\\Desktop\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\ConferenceWebSiteICSET\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "ConferenceWebSiteICSET\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-02-21T17:50:42.125Z",
+              "WhenOpened": "2025-02-21T22:00:00.974Z",
               "EditorCaption": ""
             }
           ]
