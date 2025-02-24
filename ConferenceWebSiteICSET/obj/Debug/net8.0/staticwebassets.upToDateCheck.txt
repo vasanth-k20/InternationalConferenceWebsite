@@ -13,10 +13,10 @@ wwwroot\img\about.jpg
 wwwroot\img\banner.jpg
 wwwroot\img\bannerauthor.jpg
 wwwroot\img\browser.png
-wwwroot\img\chief1.jpg
-wwwroot\img\chief2.jpg
-wwwroot\img\chief3.jpg
-wwwroot\img\chief4.jpg
+wwwroot\img\chi1.jpg
+wwwroot\img\chi2.jpg
+wwwroot\img\chi3.jpg
+wwwroot\img\chi4.jpg
 wwwroot\img\down.png
 wwwroot\img\fb.png
 wwwroot\img\gmail.png
@@ -24,8 +24,8 @@ wwwroot\img\home.jpg
 wwwroot\img\ICCSIArtboard 1.png
 wwwroot\img\ICCSIArtboard 2.png
 wwwroot\img\ICCSI'Artboard 2.png
-wwwroot\img\invities1.jpg
-wwwroot\img\invities2.jpg
+wwwroot\img\key1.jpg
+wwwroot\img\key2.jpg
 wwwroot\img\Logoo.png
 wwwroot\img\totop.png
 wwwroot\img\x.png
