@@ -6,17 +6,20 @@
 .main_container {
     display: flex;
     justify-content: center;
-    gap: 10px;
+    align-items: flex-start;
+    gap: 40px; /* Increased spacing for large screens */
     padding: 40px;
     flex-direction: row;
-    width:80%;
-    margin:auto;
+    width: 90%; /* Increased width for better layout */
+    max-width: 1200px; /* Prevents excessive stretching */
+    margin: auto;
 }
 
 /* Container */
 .container {
     flex: 1;
-    max-width: 770px;
+    min-width: 600px; /* Prevents shrinking too much */
+    max-width: 800px; /* Allows expansion */
 }
 
 /* Heading */
@@ -79,10 +82,11 @@ form {
         transition: border-color 0.3s ease;
     }
 
-    .form-group input:hover,
-    .form-group select:hover {
-        border-color: #fcac45;
-    }
+        .form-group input:hover,
+        .form-group select:hover {
+            border-color: #fcac45;
+        }
+
         .form-group input:focus, .form-group select:focus {
             border-color: #fcac45;
             box-shadow: 0 0 6px rgba(43, 120, 228, 0.4);
@@ -107,7 +111,7 @@ form {
 
         .form-button button:hover {
             background: linear-gradient(135deg, #fcac45, #ff6a00);
-            color:#fff;
+            color: #fff;
             transform: translateY(-2px);
         }
 
@@ -119,8 +123,9 @@ form {
 
 /* Guide Section */
 .guide_container {
-    flex: auto;
-    max-width: 500px;
+    flex: 1;
+    min-width: 400px;
+    max-width: 600px; /* Adjusted for large screens */
     padding: 20px;
 }
 
@@ -151,7 +156,7 @@ form {
         color: black;
         text-align: center;
         margin-bottom: 15px;
-        font-weight:600;
+        font-weight: 600;
     }
 
     .card ul {
@@ -163,7 +168,7 @@ form {
         display: flex;
         align-items: start;
         font-size: 18px;
-        color: black ;
+        color: black;
         margin-bottom: 10px;
     }
 
@@ -179,22 +184,24 @@ form {
     margin-right: 10px;
 }
 
-
 /* Responsive Design */
 @media (max-width: 1024px) {
     .main_container {
         flex-direction: column;
         align-items: center;
-        width:100%;
-        margin:0;
+        width: 100%;
+        margin: 0;
+        gap: 20px; /* Reduced spacing for smaller screens */
     }
 
-    .container{
-        max-width:80%;
+    .container {
+        max-width: 80%;
+        min-width: auto;
     }
 
     .guide_container {
         max-width: 100%;
+        min-width: auto;
     }
 }
 
@@ -242,5 +249,22 @@ form {
 
     .card li {
         font-size: 16px;
+    }
+}
+
+/* Extra Large Screens */
+@media (min-width: 1280px) {
+    .main_container {
+        gap: 40px; /* More space for better layout */
+    }
+
+    .container {
+        min-width: 650px;
+        max-width: 850px;
+    }
+
+    .guide_container {
+        min-width: 450px;
+        max-width: 650px;
     }
 }

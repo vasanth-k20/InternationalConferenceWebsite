@@ -78,11 +78,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
     filters.forEach(filter => {
         filter.addEventListener('click', () => {
+            // Remove active class from all filters and add it to the clicked one
             filters.forEach(f => f.classList.remove('active'));
             filter.classList.add('active');
 
             const filterValue = filter.getAttribute('data-filter');
 
+            // Show/hide items based on filter selection
             portfolioItems.forEach(item => {
                 if (filterValue === 'all' || item.classList.contains(filterValue)) {
                     item.style.display = 'block';
@@ -90,9 +92,25 @@ document.addEventListener('DOMContentLoaded', () => {
                     item.style.display = 'none';
                 }
             });
+
+            // Check if "Key Invitees" is active to resize images
+            if (filterValue === 'key') {
+                document.querySelectorAll('.portfolio-item.mix.key').forEach(item => {
+                    item.style.maxWidth = "400px"; // Smaller size for Key Invitees
+                    item.style.margin = "0 auto";
+                });
+            } else {
+                // Reset sizes when switching back to "All" or other filters
+                document.querySelectorAll('.portfolio-item.mix.key').forEach(item => {
+                    item.style.maxWidth = "";
+                    item.style.margin = "";
+                });
+            }
         });
     });
 });
+
+
 
 
 function validateForm() {
